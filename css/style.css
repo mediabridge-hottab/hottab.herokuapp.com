@@ -1,0 +1,258 @@
+html,body{
+	height: 100%;
+	background-color: #EEEEEE;
+}
+.navbar-inverse{
+	height: 63px;
+	background-color: #DC4637;
+	border-color: #DC4637;
+}
+.navbar-brand>img{
+	width: 45px;
+	float: left;
+	margin-top: -7px;
+}
+.navbar-brand>p{
+	float: left;
+	padding: 6px;
+	color: #fff;
+}
+.timeBar{
+	color: #fff;
+	float: right;
+	font-size: 20px;
+	padding-top: 18px;
+}
+.flag{
+	float: right;
+    margin-right: 0px;
+}
+.flag>img{
+	width: 40%;
+	margin-left: 17px;
+	margin-top: 20px;
+	box-shadow: 0px 1px 1px 1px #AC372B;
+}
+.dropdown{
+	float: right;
+}
+.container1{
+	width: 100%;
+	height: 100%;
+}
+.container1 .left{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.container1 .right{
+	width: 75%;
+	float: left;
+	height: 100%;
+}
+.container1 .left .weather-data{
+	width: 100%;
+	height: 23%;
+	background-color: #B38354;
+	margin: 0.2%;
+	float: left;
+}
+
+.container1 .left .news-data{
+	width: 100%;
+	height: 42%;
+	margin: 2px;
+	margin-bottom: 0.2%;
+	background-color: #ffffff;
+	float: left;
+}
+.container1 .left .news-data .item{
+	width: 100%;
+	height: 30%;
+	float: left;
+	padding: 1%;
+}
+.container1 .left .news-data .item:hover{
+	background-color: #EEEEEE;
+	text-decoration: none;
+	color: #000000;
+}
+.container1 .left .news-data .item>a{
+	width: 100%;
+	height: 100%;
+}
+
+.container1 .left .news-data .item>a>img{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding-right: 2%;
+}
+
+.container1 .left .news-data .item>a>p{
+	width: 70%;
+	height: 100%;
+	float: left;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.container1 .left .news-data .item>p{
+	padding-top: 1%;
+	width: 70%;
+	height: 85%;
+	float: left;
+	overflow: hidden;
+	text-align: justify;
+}
+.container1 .left .news-title{
+	width: 100%;
+	height: 6%;
+	background-color: #fff;
+	margin: 0.2%;
+	margin-top: 0.2%;
+	float: left;
+}
+.container1 .left .news-title>a{
+	color: #000000;
+}
+.container1 .left .news-title>a>p{
+	width: 90%;
+	height: 100%;
+	background: #ffffff;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+.container1 .left .event{
+	width: 100%;
+	height: 28%;
+	margin: 0.2%;
+	margin-bottom: 0.2%;
+	float: left;
+}
+.container1 .left .event>a>img{
+	width: 100%;
+	height: 69%;
+}
+.container1 .left .event>a{
+	color: #000000;
+}
+.container1 .left .event>a:hover, click{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.container1 .left .event>a>p{
+	width: 90%;
+	height: 23%;
+	background: #ffffff;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.container1 .right .right-top{
+	width: 100%;
+	float: left;
+	height: 60%;
+}
+.container1 .right .right-top .welcome-to{
+	width: 48%;
+	height: 100%;
+	background-color: black;
+	float: left;
+	margin: 0.2%;
+}
+.container1 .right .right-top .welcome-to>a{
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top .welcome-to>a>img{
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top .welcome-to>a>img:hover,click{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+.container1 .right .right-top .menu{
+	width: 51%;
+	height: 100%;
+	background-color: pink;
+	float: left;
+	margin: 0.2%;
+}
+.container1 .right .right-top .menu>a:hover{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+.container1 .right .right-top .menu>a:click{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.container1 .right .right-top .menu>a{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	color: #000000;
+}
+.container1 .right .right-top .menu>a{
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top .menu>a>img{
+	width: 100%;
+	height: 88%;
+}
+.container1 .right .right-top .menu>a>p{
+	width: 90%;
+	height: 12%;
+	background: #ffffff;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.container1 .right .right-bottom{
+	width: 100%;
+	float: left;
+	height: 40%;
+	float: left;
+}
+.container1 .right .right-bottom .hotel{
+	width: 32.9%;
+	height: 97%;
+	margin: 0.2%;
+	margin-bottom: 0px;
+	float: left;
+	margin-top: 1%;
+}
+.container1 .right .right-bottom .hotel>a{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	color: #000000;
+}
+.container1 .right .right-bottom .hotel>a>img{
+	width: 100%;
+	height: 79%;
+}
+.container1 .right .right-bottom .hotel>iframe{
+	width: 100%;
+	height: 77%;
+}
+.container1 .right .right-bottom .hotel>a>p{
+	width: 90%;
+	height: 17%;
+	background: #ffffff;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+.container1 .right .right-bottom .hotel>a:hover,click{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
