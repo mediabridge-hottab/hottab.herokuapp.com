@@ -41,12 +41,13 @@ html,body{
 	height: 100%;
 }
 .container1 .left{
-	width: 25%;
+	width: 24%;
 	height: 100%;
 	float: left;
+	padding-right: 0.5%;
 }
 .container1 .right{
-	width: 75%;
+	width: 76%;
 	float: left;
 	height: 100%;
 }
@@ -65,12 +66,14 @@ html,body{
 	margin-bottom: 0.2%;
 	background-color: #ffffff;
 	float: left;
+	overflow: hidden;
 }
 .container1 .left .news-data .item{
 	width: 100%;
 	height: 30%;
 	float: left;
 	padding: 1%;
+	overflow: hidden;
 }
 .container1 .left .news-data .item:hover{
 	background-color: #EEEEEE;
@@ -133,7 +136,7 @@ html,body{
 }
 .container1 .left .event>a>img{
 	width: 100%;
-	height: 69%;
+	height: 74%;
 }
 .container1 .left .event>a{
 	color: #000000;
@@ -151,6 +154,7 @@ html,body{
     font-weight: bold;
     padding-left: 1%;
     padding-top: 1%;
+    text-align: justify;
 }
 .container1 .right .right-top{
 	width: 100%;
@@ -160,7 +164,6 @@ html,body{
 .container1 .right .right-top .welcome-to{
 	width: 48%;
 	height: 100%;
-	background-color: black;
 	float: left;
 	margin: 0.2%;
 }
@@ -250,9 +253,9 @@ html,body{
     font-weight: bold;
     padding-left: 1%;
     padding-top: 2%;
+    z-index: 9999;
 }
 .container1 .right .right-bottom .hotel>a:hover,click{
 	background-color: #FCFCFC;
 	text-decoration: none;
 	opacity: 0.5;
-}
