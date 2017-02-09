@@ -24,6 +24,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="http://rilwis.googlecode.com/svn/trunk/weather.min.js"></script>
+
     <script>
         function startTime() {
             var today = new Date();
@@ -58,7 +59,21 @@
                 </div>
             </ul>
         </div>    
-        <div class="flag"><img src="img/flags/en.png"></div>
+        <div class="flag">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img id="flagC" src="img/flags/en.png"></button>
+                <ul id="test" class="dropdown-menu">
+                    <li class="vi fl">vi</li>
+                    <li class="en fl">en</li>
+                    <li class="ja fl">ja</li>
+                    <li class="ko fl">ko</li>
+                    <li class="th fl">th</li>
+                    <li class="zh-cn fl">zh-cn</li>
+                    <li class="fr fl">fr</li>
+                    <li class="es fl">es</li>
+                </ul>
+            </div>
+        </div>
         <div class="timeBar"><div id="txt"></div></div>
         
     </nav>
@@ -89,14 +104,14 @@
             </div>
             <div class="news-title">
                 <a href="news.html">
-                    <p style="float: left;">News</p>
+                    <p style="float: left;" id="lang0">News</p>
                     <p style="float: right;width: 10%;">></p>
                 </a>
             </div>
             <div class="event">
                 <a href="#">
                     <img src="img/event/event.png">
-                    <p style="float: left;">Event</p>
+                    <p style="float: left;" id="lang1">Event</p>
                     <p style="float: right;width: 10%;">></p>
                 </a>
             </div>
@@ -109,7 +124,7 @@
                 <div class="menu">
                     <a href="#">
                         <img src="img/menu/food.jpg">
-                        <p style="float: left;">Menu</p>
+                        <p style="float: left;" id="lang2">Menu</p>
                         <p style="float: right;width: 10%;">></p>
                     </a>
                 </div>
@@ -118,21 +133,21 @@
                 <div class="hotel">
                     <a>
                         <img src="img/room/room.jpg">
-                        <p style="float: left;">Hotel Services</p>
+                        <p style="float: left;" id="lang3">Hotel Services</p>
                         <p style="float: right;width: 10%;">></p>
                     </a>
                 </div>
                 <div class="hotel">
                     <a href="#">
                         <img src="img/map/city.png">
-                        <p style="float: left;">City Guide</p>
+                        <p style="float: left;" id="lang4">City Guide</p>
                         <p style="float: right;width: 10%;">></p>
                     </a>
                 </div>
                 <div class="hotel">
                     <iframe src="https://www.youtube.com/embed/SnGuycli9es" frameborder="0" allowfullscreen></iframe>
                     <a href="#">
-                        <p style="float: left;">Videos</p>
+                        <p style="float: left;" id="lang5">Videos</p>
                         <p style="float: right;width: 10%;">></p>
                     </a>
                 </div>
@@ -146,7 +161,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/language.js"></script>
 </body>
 
 </html>
