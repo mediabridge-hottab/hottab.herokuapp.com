@@ -1,0 +1,72 @@
+.container1 .travel-top{
+    width: 100%;
+    height: 50%;
+    float: left;
+    border-top: 0;
+    border-left: 3px solid #EEEEEE;
+    border-right: 3px solid #EEEEEE;
+    margin-top: -3px;
+}
+.container1 .travel-top .col{
+    width: 33.3333333333333333333333333%;
+    height: 100%;
+    border: 3px solid #EEEEEE;
+    float: left;
+}
+.container1 .travel-top .col >img{
+    width: 100%;
+    height: 85%;
+    float: left;
+}
+.container1 .travel-top .col .title{
+    width: 100%;
+    height: 15%;
+    background-color: #fff;
+    float: left;
+}
+.container1 .travel-top .col .title >img{
+    height: 100%;
+}
+.container1 .travel-top .col .title .mdi{
+    font-size: 100%;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.container1 .travel-top .col .col-2{
+    width: 100%;
+    height: 100%;
+}
+.container1 .travel-top .col .col-2 >img{
+    float: left;
+    width: 100%;
+    height: 35%;
+}
+.container1 .travel-bottom{
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color: #daf053;
+    border-left: 3px solid #EEEEEE;
+    border-right: 3px solid #EEEEEE;
+    border-top: 0;
+}
+.container1 .travel-bottom .col{
+    width: 25%;
+    height: 100%;
+    border: 3px solid #EEEEEE;
+    float: left;
+}
+.container1 .travel-bottom .col>img{
+    width: 100%;
+    height: 85%;
+}
+.container1 .travel-bottom .col .title{
+    width: 100%;
+    height: 15%;
+    background-color: #fff;
+    float: left;
+}
+.container1 .travel-bottom .col .title >img{
+    height: 100%;
+}
