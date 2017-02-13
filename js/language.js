@@ -11,13 +11,16 @@ function getEventTarget(e) {
 var ul = document.getElementById('test');
 ul.onclick = function(event) {
     var target = getEventTarget(event);
+    var flg= ""
     var arr = new Array();
-    if(target.innerHTML=="vi"){
+    if(target.innerHTML=="Tiếng Việt"){
         arr=vi;
-    }else if(target.innerHTML=="en"){
+        flg="vi";
+    }else if(target.innerHTML=="English"){
         arr=en;
+        flg = "en";
     }
-    document.getElementById("flagC").src = "img/flags/"+target.innerHTML+".png";
+    document.getElementById("flagC").src = "img/flags/"+flg+".png";
     document.getElementById("lang0").innerHTML = arr[0];
     document.getElementById("lang1").innerHTML = arr[1];
     document.getElementById("lang2").innerHTML = arr[2];

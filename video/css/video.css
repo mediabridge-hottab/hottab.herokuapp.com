@@ -1,0 +1,18 @@
+* {}
+
+.main {
+    height: 638px;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 89.97;
+    background-color: blue;
+}
+
+.top-panel {
+    width: 100%;
+    height: 10.03%;
+    background-color: red;
+}
