@@ -17,6 +17,7 @@
     width: 100%;
     height: 85%;
     float: left;
+    object-fit: cover;
 }
 .container1 .travel-top .col .title{
     width: 100%;
@@ -26,6 +27,7 @@
 }
 .container1 .travel-top .col .title >img{
     height: 100%;
+    object-fit: cover;
 }
 .container1 .travel-top .col .title .mdi{
     font-size: 100%;
@@ -41,6 +43,7 @@
     float: left;
     width: 100%;
     height: 35%;
+    object-fit: cover;
 }
 .container1 .travel-bottom{
     width: 100%;
@@ -60,6 +63,7 @@
 .container1 .travel-bottom .col>img{
     width: 100%;
     height: 85%;
+    object-fit: cover;
 }
 .container1 .travel-bottom .col .title{
     width: 100%;
@@ -69,4 +73,5 @@
 }
 .container1 .travel-bottom .col .title >img{
     height: 100%;
+    object-fit: cover;
 }

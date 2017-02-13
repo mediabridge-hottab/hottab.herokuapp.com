@@ -1,0 +1,86 @@
+* {
+
+}
+
+a {
+    color: black;
+}
+
+button.button.button-icon:hover {
+    background-color: darkgray;
+}
+
+button.button.button-icon {
+    border: none;
+    width: 55px;
+    height: 55px;
+    margin-top: 8px;
+}
+
+.col-sm-6.col-md-4.col-lg-4 {
+    padding: 8px;
+    background-color: darkgray;
+    height: 584px;
+    overflow-y: auto; 
+}
+
+.col-sm-6.col-md-8.col-lg-8 {
+    background-color: white;
+    padding: 8px;
+}
+
+p.text-binding {
+    overflow-y: scroll;
+    height: 35px;
+}
+
+.col-xs-12.col-sm-6.col-md-8.col-lg-8 {
+    background-color: white;
+    padding: 8px;
+}
+
+.container-fluid.content-page {
+    background-color: #eee;
+    padding: 9px;
+}
+
+.container-fluid.top-page {
+    height: 64px;
+    background-color: #eee;
+}
+
+.media-detail-top {
+	height: 150px;
+}
+
+.media-detail.page {
+	height: 500px;
+}
+
+.media-detail-left {
+	background-color: white;
+	float: left;
+}
+
+.media-detail-right {
+	background-color: white;
+	float: left;
+}
+
+#outer_container{margin:60px; width:260px; padding:0 10px; border-top:1px solid #666; border-bottom:1px solid #666;}
+#customScrollBox{position:relative; height:600px; overflow:hidden;}
+#customScrollBox .container{position:relative; width:240px; top:0; float:left;}
+#customScrollBox .content{clear:both;}
+#customScrollBox .content p{padding:10px 5px; margin:10px 0; color:#fff; font-family:Verdana, Geneva, sans-serif; font-size:13px;}
+#customScrollBox img{border:5px solid #fff;}
+#dragger_container{position:relative; width:0px; height:580px; float:left; margin:10px 0 0 10px; border-left:1px solid #000; border-right:1px solid #555;}
+#dragger{position:absolute; width:9px; height:40px; background:#999; margin-left:-5px; text-align:center; line-height:40px; color:#666; overflow:hidden; border-left:1px solid #ccc; border-right:1px solid #555;}
+
+h3.video-title {
+    font-size: large;
+    margin-top: 9px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
