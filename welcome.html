@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/welcome.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,10 +59,24 @@
                     <i class="mdi mdi-tooltip-text"> Demo feedback </i>
                 </div>
             </ul>
-        </div>    
-        <div class="flag"><img src="img/flags/en.png"></div>
+        </div>
+        <div class="flag">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img id="flagC" src="img/flags/en.png"></button>
+                <ul id="test" class="dropdown-menu">
+                    <li class="vi fl">Tiếng Việt</li>
+                    <li class="en fl">English</li>
+                    <li class="ja fl">日本語</li>
+                    <li class="ko fl">ko</li>
+                    <li class="th fl">th</li>
+                    <li class="zh-cn fl">zh-cn</li>
+                    <li class="fr fl">fr</li>
+                    <li class="es fl">es</li>
+                </ul>
+            </div>
+        </div>
         <div class="timeBar"><div id="txt"></div></div>
-        
+
     </nav>
 
     <!-- Page Content -->

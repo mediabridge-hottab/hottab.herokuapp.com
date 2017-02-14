@@ -174,11 +174,29 @@ html,body{
 .container1 .left .weather-data{
 	width: 100%;
 	height: 23%;
-	background-color: #B38354;
+	background-color: #DC4637;
 	float: left;
 	border-bottom: 7px solid #EEEEEE;
 }
-
+.container1 .left .weather-data .weather{
+	width: 100%;
+	height: 100%;
+}
+.container1 .left .weather-data .weather >h2{
+	font-size: 58px;
+	padding-top: 0;
+	margin-top: 0;
+	color: white;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+.container1 .left .weather-data .weather >li{
+	list-style-type: none;
+	color: white;
+	font-size: 20px;
+	padding-top: 7px;
+}
 .container1 .left .news-data{
 	width: 100%;
 	height: 42%;
