@@ -15,9 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/thumbnail-gallery.css" rel="stylesheet">
     <link href="css/materialdesignicons.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/welcome.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -82,15 +80,26 @@
     <!-- Page Content -->
     <div class="container1">
         <div class="left">
-            <div class="top"></div>
-            <div class="bottom"></div>
+            <div class="top">
+                <img class="content-img" src="img/welcome/1.jpg">
+            </div>
+            <div class="bottom">
+                <img class="content-img" src="img/welcome/2.jpg">
+            </div>
         </div>
         <div class="middle">
-            <div class="content"></div>
+            <div class="content">
+                <img class="content-img" src="img/welcome/middle.jpg">
+            </div>
         </div>
-        <div class="left">
-            <div class="top"></div>
-            <div class="bottom"></div>
+        <div class="right">
+            <div class="top">
+                <img class="content-img" src="img/welcome/3.jpg">
+            </div>
+            <div class="bottom">
+                <img class="content-img" src="img/welcome/4.jpg">
+            </div>
+
         </div>
     </div>
     <!-- /.container -->
@@ -100,6 +109,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/language.js"></script>
 
 </body>
 

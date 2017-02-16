@@ -1,18 +1,191 @@
 * {}
 
-.main {
-    height: 638px;
+p.vid-list-item-auth {
+    margin: 0px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+h3.vid-list-item-title {
+    width: 100%;
+    margin: 0px;
+    font-size: 16px;
+    opacity: 0.9;
+    height: 60px;
+    overflow: hidden;
+}
+
+.vid-list-item-info {
+    float: left;
+    width: 66.666667%;
+    height: 90px;
+}
+
+img.list-item-img {
+    width: 90%;
+    height: 90px;
+}
+
+img.img-responsive {}
+
+.vid-list-item-img {
+    width: 33.333333%;
+    height: 90px;
+    float: left;
+}
+
+#left {
+	width: 65%;
+	height: 96%;
+	float: left;
+	background-color: white;
+	margin: 4px;
+	border-radius: 3px;
+	padding: 8px;
+}
+
+#right {
+	width: 31.4%;
+	height: 96%;
+	float: left;
+	background-color: white;
+	margin: 4px;
+	border: 8px solid white;
+	border-radius: 3px;
+	overflow-y: scroll;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    margin: 4px;
+    padding: 8px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.main-page {
+    height: 87.968652%;
+    padding: 5px;
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+
+html, body {width: 100%;height: 100%;}
+
+body {
+	margin: 0px;
+}
+
+button.button.button-icon.toolbar-button.toolbar-back:hover {
+    background-color: rgba(0,0,0,.2);
+}
+
+button.button.button-icon.toolbar-button.toolbar-back {
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 4px;
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+i.mdi.mdi-close.text-black {
+    font-size: 24px;
+}
+
+.nav-top {
+    height: 64px;
     width: 100%;
 }
 
-.content {
-    width: 100%;
-    height: 89.97;
-    background-color: blue;
+nav.navbar.navbar-default.navbar-fixed-top {
+    height: 64px;
+    background-color: #EEEEEE;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
-.top-panel {
-    width: 100%;
-    height: 10.03%;
-    background-color: red;
+p.text-binding {
+	font-size: 15px;
+	opacity: 0.8;
+	overflow-y: scroll !important;
+	height: 29px;
+}
+
+p.vid-author {
+	opacity: 0.8;
+}
+
+h3.content-page-title {
+	font-size: 25px
+}
+.vid-list-item {
+	height: 90px;
+	margin-bottom: 6px;
+	font: small-caption;
+}
+
+.vid-list-item:hover {
+	background-color: #555555;
+}
+
+@media only screen and (max-width: 1024px) {
+	#right {
+		width: 30%;
+		height: 96%;
+		float: left;
+		background-color: white;
+		margin: 4px;
+		border: 8px solid white;
+		border-radius: 3px;
+		overflow-y: scroll;
+	}
+
+	.vid-list-item-title {
+		overflow: hidden;
+		height: 40px !important;
+	}
+
+	p.text-binding {
+		font-size: 15px;
+		opacity: 0.8;
+		overflow-y: scroll !important;
+		height: 56px;
+	}
+
+	h3.content-page-title {
+    	font-size: 25px;
+    	overflow: hidden;
+	}
+
+	img.list-item-img {
+		width: 90%;
+		height: 90px;
+		object-fit: cover; 
+	}
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    /* background: #FF0000; */
 }

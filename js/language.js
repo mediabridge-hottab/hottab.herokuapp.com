@@ -1,8 +1,9 @@
 /**
  * Created by MyPC on 08/02/2017.
  */
-var vi = new Array("Tin tức","sự kiện","Thực đơn","Dịch Vụ","Bản đồ", "Videos");
+var vi = new Array("Tin tức","Sự kiện","Thực đơn","Dịch Vụ","Bản đồ", "Videos");
 var en = new Array("News","Event","Menu","Hotel Services","City Guide","Videos");
+var jp = new Array("ニュース","イベント","メニュー","サービス","マップ", "ビデオ");
 function getEventTarget(e) {
     e = e || window.event;
     return e.target || e.srcElement;
@@ -19,6 +20,9 @@ ul.onclick = function(event) {
     }else if(target.innerHTML=="English"){
         arr=en;
         flg = "en";
+    }else if(target.innerHTML=="日本語"){
+        arr=jp;
+        flg = "ja";
     }
     document.getElementById("flagC").src = "img/flags/"+flg+".png";
     document.getElementById("lang0").innerHTML = arr[0];
