@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4440f881-3da7-4691-bb80-c566f281af2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/add_category_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/add_category_menu_function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/add_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/delete_cate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/delete_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/edit_cate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/edit_category_menu_function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/edit_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/edit_menu_function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/list_category_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/list_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/menu_function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather/js/ip.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/news.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/travel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welcome.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/menu.css" afterPath="$PROJECT_DIR$/css/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="hottab.herokuapp.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -339,16 +316,16 @@
       <workItem from="1487153127169" duration="538000" />
       <workItem from="1487160284547" duration="11490000" />
       <workItem from="1487211681352" duration="598000" />
-      <workItem from="1487215137565" duration="4416000" />
+      <workItem from="1487215137565" duration="4679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53605000" />
+    <option name="totallyTimeSpent" value="53868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
