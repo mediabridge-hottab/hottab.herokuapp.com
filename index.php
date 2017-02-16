@@ -105,7 +105,7 @@
                 <a href="news.html">
                     <figure class="wp-caption">
                         <img class="demo" src="img/video/img.jpg" alt="Image" />
-                        <figcaption class="wp-caption-text" id="lang0">News </figcaption>
+                        <figcaption class="wp-caption-text" id="lang0">News</figcaption>
                     </figure>
                 </a>
             </div>

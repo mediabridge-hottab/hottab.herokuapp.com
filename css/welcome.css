@@ -1,41 +1,378 @@
+* {}
+
+.right {
+    float: left;
+    width: 34%;
+    padding: 4px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    float: left;
+    width: 32%;
+    height: 100%;
+    background-color: #ffffff;
+    /* padding: 4px; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0px;
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+}
+
+.top {
+    width: 100%;
+    height: 49%;
+    margin-bottom: 1%;
+}
+
+.left {
+    width: 34%;
+    height: 100%;
+    float: left;
+    background-color: #ffffff;
+    padding: 4px;
+}
+
 html,body{
 	height: 100%;
 	background-color: #EEEEEE;
 }
-.container1 .left{
-	width: 34%;
-	height: 99%;
-	background-color: #ffffff;
+
+body {
+    padding-top: 65px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-inverse{
+	height: 64px;
+	background-color: #DC4637;
+	border-color: #DC4637;
+}
+.navbar-brand>img{
+	width: 45px;
+	float: left;
+	margin-top: -7px;
+	margin-left: -3px;
+}
+.navbar-brand>p{
+	float: left;
+	padding: 6px;
+	color: #fff;
+}
+.timeBar{
+	color: #fff;
+	float: right;
+	font-size: 20px;
+	padding-top: 18px;
+	margin-right: 15px;
+}
+.flag{
+	float: right;
+    margin-right: 0px;
+	margin: 6px;
+}
+.flag>ul{
+	list-style: none;
 	float: left;
 }
-.container1 .left .top{
-	width: 99%;
-	height: 48%;
-	background-color: #4D4D4D;
+.flag>ul>li{
 	float: left;
-	margin: 1%;
-	margin-top: 0px;
-}
-.container1 .left .bottom{
-	width: 99%;
-	height: 48%;
-	background-color: #4D4D4D;
-	float: left;
-	margin: 1%;
-	margin-top: 0;
-}
-.container1 .middle{
-	width: 32%;
-	height: 99%;
-	background-color: #ffffff;
-	float: left;
-}
-.container1 .middle .content{
 	width: 100%;
-	height: 97%;
-	background-color: #313437;
+	height: 100%;
+	color: transparent;
+}
+.flag .open>ul{
+	width: 150px;
+	background-color: white;
+	margin-left: -100px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+}
+.flag .open>ul>li{
+	width: 100%;
+	border-left: 20px solid #ffffff;
+	border-top: 20px solid #ffffff;
+}
+
+.flag .open>ul>li:hover{
+	background-color: #F5F5F5;
+}
+.flag .dropdown{
+	width: 32px;
+	height: 50px;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.flag .dropdown-menu{
+	margin: 0px;
+	background-color: transparent;
+	margin-top: -42px;
+	border-color: transparent;
+	min-width:50px;
+}
+.flag .dropdown .btn-primary{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0;
+	padding: 0;
+	margin-right: 20px;
+}
+.flag .dropdown .btn-primary>img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0px 1px 1px 1px #AC372B;
+}
+.flag .open>.dropdown-toggle.btn-primary{
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.flag .fl{
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+.flag .vi{
+	background-image: url("../img/flags/vi.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .ja{
+	background-image: url("../img/flags/ja.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .es{
+	background-image: url("../img/flags/es.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .ko{
+	background-image: url("../img/flags/ko.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .fr{
+	background-image: url("../img/flags/fr.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}.flag .zh-cn{
+	 background-image: url("../img/flags/zh-cn.png");
+	 background-size: 28px 19px;
+	 background-repeat: no-repeat;
+	 padding-left: 38px;
+ }
+.flag .th{
+	background-image: url("../img/flags/th.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+
+.flag .en{
+	background-image: url("../img/flags/en.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag>img{
+	width: 40%;
+	margin-left: 17px;
+	margin-top: 20px;
+	box-shadow: 0px 1px 1px 1px #AC372B;
+	margin: 0;
+	padding: 0;
+}
+.dropdown{
+	float: right;
+}
+.container1{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 6px;
+	background-color: #EEEEEE;
+}
+
+img.content-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar-inverse{
+	height: 64px;
+	background-color: #DC4637;
+	border-color: #DC4637;
+	margin-bottom: 0px !important;
+}
+.navbar-brand>img{
+	width: 45px;
 	float: left;
-	margin: 1%;
-	margin-left: 0;
-	margin-top: 0;
+	margin-top: -7px;
+	margin-left: -3px;
+}
+.navbar-brand>p{
+	float: left;
+	padding: 6px;
+	color: #fff;
+}
+.timeBar{
+	color: #fff;
+	float: right;
+	font-size: 20px;
+	padding-top: 18px;
+	margin-right: 15px;
+}
+.flag{
+	float: right;
+    margin-right: 0px;
+	margin: 6px;
+}
+.flag>ul{
+	list-style: none;
+	float: left;
+}
+.flag>ul>li{
+	float: left;
+	width: 100%;
+	height: 100%;
+	color: transparent;
+}
+.flag .open>ul{
+	width: 150px;
+	background-color: white;
+	margin-left: -100px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+}
+.flag .open>ul>li{
+	width: 100%;
+	border-left: 20px solid #ffffff;
+	border-top: 20px solid #ffffff;
+}
+
+.flag .open>ul>li:hover{
+	background-color: #F5F5F5;
+}
+.flag .dropdown{
+	width: 32px;
+	height: 50px;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.flag .dropdown-menu{
+	margin: 0px;
+	background-color: transparent;
+	margin-top: -42px;
+	border-color: transparent;
+	min-width:50px;
+}
+.flag .dropdown .btn-primary{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0;
+	padding: 0;
+	margin-right: 20px;
+}
+.flag .dropdown .btn-primary>img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0px 1px 1px 1px #AC372B;
+}
+.flag .open>.dropdown-toggle.btn-primary{
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.flag .fl{
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+.flag .vi{
+	background-image: url("../img/flags/vi.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .ja{
+	background-image: url("../img/flags/ja.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .es{
+	background-image: url("../img/flags/es.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .ko{
+	background-image: url("../img/flags/ko.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .fr{
+	background-image: url("../img/flags/fr.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}.flag .zh-cn{
+	 background-image: url("../img/flags/zh-cn.png");
+	 background-size: 28px 19px;
+	 background-repeat: no-repeat;
+	 padding-left: 38px;
+ }
+.flag .th{
+	background-image: url("../img/flags/th.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+
+.flag .en{
+	background-image: url("../img/flags/en.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag>img{
+	width: 40%;
+	margin-left: 17px;
+	margin-top: 20px;
+	box-shadow: 0px 1px 1px 1px #AC372B;
+	margin: 0;
+	padding: 0;
+}
+.dropdown{
+	float: right;
 }
