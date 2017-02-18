@@ -1,29 +1,40 @@
 * {}
 
+div#weather {
+    margin-left: 25px;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
 html,body{
 	height: 100%;
 	background-color: #EEEEEE;
 }
 .navbar-inverse{
-	height: 63px;
+	height: 64px;
 	background-color: #DC4637;
 	border-color: #DC4637;
 }
 .navbar-brand>img{
-	width: 45px;
-	float: left;
-	margin-top: -7px;
+    width: 40px;
+    float: left;
+    margin-top: -5px;
+    margin-left: -5px;
 }
 .navbar-brand>p{
-	float: left;
-	padding: 6px;
-	color: #fff;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #FFFFFF;
 }
 .timeBar{
-	color: #fff;
-	float: right;
-	font-size: 20px;
-	padding-top: 18px;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 19px;
+    margin-right: 20px;
+    font-size: 20px;
 }
 .flag{
 	float: right;
@@ -41,9 +52,11 @@ html,body{
 	color: transparent;
 }
 .flag .open>ul{
-	width: 150px;
-	background-color: white;
-	margin-left: -100px;
+    width: 150px;
+    background-color: white;
+    margin-left: -100px;
+    padding-bottom: 15px;
+    padding-top: 0px;
 }
 .flag .open>ul>li{
 	width: 100%;
@@ -63,11 +76,9 @@ html,body{
 	padding: 0;
 }
 .flag .dropdown-menu{
-	margin: 0px;
-	background-color: transparent;
-	margin-top: -42px;
-	border-color: transparent;
-	min-width:50px;
+    margin-top: -3px;
+    min-width: 171px;
+    cursor: pointer;
 }
 .flag .dropdown .btn-primary{
 	width: 100%;
@@ -160,41 +171,41 @@ html,body{
 	overflow: hidden;
 }
 .container1 .left{
-	width: 27%;
+	width: 25.5%;
 	height: 100%;
 	float: left;
 	border: 7px solid #EEEEEE;
 	border-top: 0;
 }
 .container1 .right{
-	width: 73%;
+	width: 74%;
 	float: left;
 	height: 100%;
 	border-top: 7px solid #EEEEEE;
 	border-top: 0;
 }
 .container1 .left .weather-data{
-	width: 100%;
-	height: 23%;
-	background-color: #B38354;
-	float: left;
-	border-bottom: 7px solid #EEEEEE;
+    width: 100%;
+    height: 25%;
+    background-color: #DC4637;
+    float: left;
+    border-bottom: 5px solid #EEEEEE;
+    color: white;
 }
 
 .container1 .left .news-data{
-	width: 100%;
-	height: 42%;
-	background-color: #ffffff;
-	float: left;
-	overflow: hidden;
-	border-bottom: 3px solid #EEEEEE;
+    width: 100%;
+    height: 37.25%;
+    background-color: #FFFFFF;
+    float: left;
+    border-bottom: 5px solid #EEEEEE;
 }
 .container1 .left .news-data .item{
 	width: 100%;
-	height: 33%;
+	height: 19%;
 	float: left;
 	overflow: hidden;
-	border: 2px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
 }
 .container1 .left .news-data .item:hover{
 	background-color: #EEEEEE;
@@ -207,17 +218,18 @@ html,body{
 }
 
 .container1 .left .news-data .item>a>img{
-	width: 30%;
-	height: 100%;
-	float: left;
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid #FFFFFF;
 }
-
 .container1 .left .news-data .item>a>p{
-	width: 70%;
-	height: 100%;
-	float: left;
-	font-weight: bold;
-	overflow: hidden;
+	width: 75%;
+    height: 100%;
+    margin-left: 2%;
+    float: left;
+    overflow: hidden;
+    font-size: 85%;
 }
 
 .container1 .left .news-data .item>p{
@@ -246,7 +258,7 @@ html,body{
 }
 .container1 .left .event{
 	width: 100%;
-	height: 29%;
+	height: 31.5%;
 	float: left;
 }
 .container1 .left .event>a>img{
@@ -280,27 +292,27 @@ html,body{
 	height: 60%;
 	border-bottom: 7px solid #EEEEEE;
 }
-.container1 .right .right-top .welcome-to{
-	width: 48%;
+.container1 .right .right-top .introduction{
+	width: 45.25%;
 	height: 100%;
 	float: left;
 	border-right: 7px solid #EEEEEE;
 }
-.container1 .right .right-top .welcome-to>a{
+.container1 .right .right-top .introduction>a{
 	width: 100%;
 	height: 100%;
 }
-.container1 .right .right-top .welcome-to>a>img{
+.container1 .right .right-top .introduction>a>img{
 	width: 100%;
 	height: 100%;
 }
-.container1 .right .right-top .welcome-to>a>img:hover,click{
+.container1 .right .right-top .introduction>a>img:hover,click{
 	background-color: #FCFCFC;
 	text-decoration: none;
 	opacity: 0.5;
 }
 .container1 .right .right-top .menu{
-	width: 51%;
+	width: 54.75%;
 	height: 100%;
 	background-color: pink;
 	float: left;
@@ -338,11 +350,11 @@ html,body{
 .container1 .right .right-bottom{
 	width: 100%;
 	float: left;
-	height: 40%;
+	height: 38.5%;
 	float: left;
 }
 .container1 .right .right-bottom .hotel{
-	width: 32.9%;
+	width: 33.3%;
 	height: 100%;
 	float: left;
 	border-right: 7px solid #EEEEEE;
@@ -460,11 +472,9 @@ select#la option[value="vi"]{
 }
 /*event*/
 .container1 .left .event .wp-caption {
-	position: relative;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 .container1 .left .event .wp-caption:hover {
 	opacity: 0.8;
@@ -490,6 +500,7 @@ select#la option[value="vi"]{
 	display: block;
 	position: absolute;
 	width: 100%;
+	height: 28%;
 	color: #000000;
 	left: 0;
 	bottom: 0;

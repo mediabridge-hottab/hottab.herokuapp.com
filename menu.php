@@ -25,99 +25,35 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="http://rilwis.googlecode.com/svn/trunk/weather.min.js"></script>
-
-    <script>
-        function startTime() {
-            var today = new Date();
-            var h = today.getHours();
-            var m = today.getMinutes();
-            var s = today.getSeconds();
-            m = checkTime(m);
-            s = checkTime(s);
-            document.getElementById('txt').innerHTML =
-                    h + ":" + m + ":" + s;
-            var t = setTimeout(startTime, 500);
-        }
-        function checkTime(i) {
-            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-            return i;
-        }
-    </script>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div id="top-panel-ent">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div id="top-icon"><a href="index.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
+            <div id="top-title">Digital menu</div>
+            <img id="order-image" src="img/menu/order.png" alt="">
+        </div>
+    </nav>
 </head>
 
 <body onload="startTime()">
-
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <a class="navbar-brand" href="index.php">
-        <img src="img/avatar.png">
-        <p>DIGITAL MENU</p>
-    </a>
-    <div class="dropdown">
-        <ul>
-            <div class="dropdown-menu right">
-                <i class="mdi mdi-tooltip-text"> Demo feedback </i>
-            </div>
-        </ul>
-    </div>
-    <div class="flag">
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img id="flagC" src="img/flags/en.png"></button>
-            <ul id="test" class="dropdown-menu">
-                <li class="vi fl">vi</li>
-                <li class="en fl">en</li>
-                <li class="ja fl">ja</li>
-                <li class="ko fl">ko</li>
-                <li class="th fl">th</li>
-                <li class="zh-cn fl">zh-cn</li>
-                <li class="fr fl">fr</li>
-                <li class="es fl">es</li>
-            </ul>
-        </div>
-    </div>
-    <div class="timeBar"><div id="txt"></div></div>
-
-</nav>
-
 <!-- Page Content -->
 <div class="container1">
-    <div class="left">
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-silverware-variant">Digital Minibar</p>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-food">Digital Menu</p>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-account-card-details">Payment Options</p>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-facebook-box">Social Interaction</p>
-            </a>
-        </div>
+    <div class="left" id="menuCate">
 
     </div>
-    <div class="right">
-        <?php include 'admin/function.php'?>
-        <?php $menu = getAllCate(); ?>
-        <?php while($row = mysqli_fetch_array($menu)){ ?>
-        <div class="item">
-            <a>
+    <div class="right" id = 'stars'>
+
+
+
+
+           <!-- <a>
                 <figure class="wp-caption">
-                    <img class="demo" src="admin/img/icon/<?php echo $row['icon'] ?>" alt="Image" />
-                    <figcaption class="wp-caption-text"><?php echo $row['name'] ?></figcaption>
+                    <img class="demo" src="admin/img/icon " alt="Image" />
+                    <figcaption class="wp-caption-text"> </figcaption>
                 </figure>
-            </a>
-        </div>
-        <?php } ?>
+            </a> -->
+
     </div>
 </div>
 <!-- /.container -->
@@ -128,6 +64,7 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/language.js"></script>
+<script src="js/menu.js"></script>
 </body>
 
 </html>

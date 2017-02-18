@@ -103,14 +103,13 @@ div#top-title {
     padding-top: 19px;
     padding-left: 1px;
     color: white;
-    font: inherit;
     font-size: 19px;
 }
 
 div#top-icon {
     float: left;
     padding: 11px;
-    padding-top: 12px;
+    padding-top: 12px;  
     padding-left: 15px;
 }
 

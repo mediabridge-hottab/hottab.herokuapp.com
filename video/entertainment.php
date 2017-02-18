@@ -27,19 +27,18 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top-panel-ent">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div id="top-icon"><a href="../index.html"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
-            <div id="top-title">ENTERTAINMENT</div>
+            <div id="top-icon"><a href="../index.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
+            <div id="top-title">Entertainment</div>
         </div>
     </nav>
     <!-- Page Content -->
     <div id="page-ent">
-        <div class="card-vid-group">
-            <div class="card-vid" onclick="location.href = 'media-detail.html';">
+        <div class="card-vid-group" onclick="location.href = 'media-detail.php';">
+            <div class="card-vid">
                 <div class="card-vid-img">
                     <img src="img/entertainment/hqdefault-001.jpg" alt="" class="img video-img">
                 </div>

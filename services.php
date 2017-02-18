@@ -18,65 +18,54 @@
     <link href="css/thumbnail-gallery.css" rel="stylesheet">
     <link href="css/materialdesignicons.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/travel.css" rel="stylesheet">
+    <link href="css/services.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
+<body onload="startTime()">
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top-panel-ent">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div id="top-icon"><a href="index.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
-            <div id="top-title">Travel</div>
+            <div id="top-title">Services</div>
         </div>
     </nav>
 
-    <!-- Page Content -->
+<!-- Page Content -->
 <div class="container1">
-    <div class="travel-top" onclick="location.href='event.php';">
-        <div class="col">
-            <img src="img/city/drink.jpg">
-            <div class="title"><img src="img/city/1.png"></div>
+    <div class="left">
+        <div class="item">
+            <a href="#">
+                <p class="item-img mdi mdi-border-color">Order</p>
+            </a>
         </div>
-        <div class="col">
-            <div class="col-2">
-                <img src="img/city/eat.jpg">
-                <div class="title"><img src="img/city/2.png"></div>
-                <img src="img/city/coffee.jpg">
-                <div class="title"><img src="img/city/4.png"></div>
-            </div>
+        <div class="item">
+            <a href="#">
+                <p class="item-img mdi mdi-phone">Room Service</p>
+            </a>
         </div>
-        <div class="col">
-            <div class="col-2">
-                <img src="img/city/beer.jpg">
-                <div class="title"><img src="img/city/3.png"></div>
-                <img src="img/city/steak.jpg">
-                <div class="title"><img src="img/city/5.png"></div>
-            </div>
+        <div class="item">
+            <a href="#">
+                <p class="item-img mdi mdi-broom">House Keeping</p>
+            </a>
         </div>
-    </div>
-    <div class="travel-bottom">
-        <div class="col">
-            <img src="img/city/lunch.jpg">
-            <div class="title"><img src="img/city/7.png"></div>
-        </div>
-        <div class="col">
-            <img src="img/city/dinner.png">
-            <div class="title"><img src="img/city/6.png"></div>
-        </div>
-        <div class="col">
-            <img src="img/city/museum.jpg">
-            <div class="title"><img src="img/city/8.png"></div>
-        </div>
-        <div class="col">
-            <img src="img/city/city.png">
-            <div class="title"><img src="img/city/9.png"></div>
+        <div class="item">
+            <a href="#">
+                <p class="item-img mdi mdi-heart">Extra Services</p>
+            </a>
         </div>
     </div>
+    <div class="right">
+        <a href="#">
+            <img id="notice" src="img/services/notice.png" alt="Image">
+        </a>
+        </div>
 </div>
 <!-- /.container -->
 

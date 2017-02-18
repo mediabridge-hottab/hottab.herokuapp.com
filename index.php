@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/thumbnail-gallery.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="weather/css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,15 +32,21 @@
             var h = today.getHours();
             var m = today.getMinutes();
             var s = today.getSeconds();
+            curMeridiem = h > 12 ? "PM" : "AM";
+            h = correctTime(h);
             m = checkTime(m);
-            s = checkTime(s);
+
             document.getElementById('txt').innerHTML =
-            h + ":" + m + ":" + s;
+            h + ":" + m + " " + curMeridiem;
             var t = setTimeout(startTime, 500);
         }
         function checkTime(i) {
             if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
             return i;
+        }
+        function correctTime(k) {
+            if (k >= 12){k = k - 12}; // get correct hour
+            return k;
         }
     </script>
 </head>
@@ -63,14 +70,14 @@
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img id="flagC" src="img/flags/en.png"></button>
                 <ul id="test" class="dropdown-menu">
-                    <li class="vi fl">Tiếng Việt</li>
                     <li class="en fl">English</li>
+                    <li class="es fl">Español</li>
+                    <li class="fr fl">Français</li>
                     <li class="ja fl">日本語</li>
-                    <li class="ko fl">ko</li>
-                    <li class="th fl">th</li>
-                    <li class="zh-cn fl">zh-cn</li>
-                    <li class="fr fl">fr</li>
-                    <li class="es fl">es</li>
+                    <li class="ko fl">한국어</li>
+                    <li class="th fl">ภาษาไทย</li>
+                    <li class="vi fl">Tiếng Việt</li>
+                    <li class="zh-cn fl">简体中文</li>
                 </ul>
             </div>
         </div>
@@ -82,27 +89,42 @@
     <div class="container1">
         <div class="left">
             <div class="weather-data">
-               <img src="img/weather/img.jpg">
+                <div class="weather" id="weather"></div>
             </div>
             <div class="news-data">
                 <div class="item">
-                    <a href="#"><img src="img/news/img.jpg"></a>
-                    <a href="#"><p>Vườn quốc gia phong nha kẻ bàng</p></a>
+                    <a href="#"><img src="img/news/1.PNG"></a>
+                    <a href="http://www.bbc.com/news/world-asia-38994318">
+                        <p>Pakistan: IS attack on Sufi shrine in Sindh kills dozens</p></a>
             
                 </div>
                 <div class="item">
-                    <a href="#"><img src="img/news/img.jpg"></a>
-                    <a href="#"><p>Vườn quốc gia phong nha kẻ bàng</p></a>
+                    <a href="#"><img src="img/news/2.PNG"></a>
+                    <a href="http://www.bbc.com/news/world-asia-39001703">
+                        <p>Lal Shahbaz Qalandar shrine attack prompts Pakistan security crackdown</p></a>
                    
                 </div>
                 <div class="item">
-                    <a href="#"><img src="img/news/img.jpg"></a>
-                    <a href="#"><p>Vườn quốc gia phong nha kẻ bàng</p></a>
+                    <a href="#"><img src="img/news/3.PNG"></a>
+                    <a href="http://www.bbc.com/news/world-asia-39000936">
+                        <p>Zealandia: Is there an eighth continent under New Zealand?</p></a>
+                
+                </div>
+                    <div class="item">
+                    <a href="#"><img src="img/news/4.PNG"></a>
+                    <a href="http://www.bbc.com/news/world-asia-38997370">
+                        <p>Samsung heir Lee Jae-yong arrested in South Korea</p></a>
+                
+                </div>
+                    <div class="item">
+                    <a href="#"><img src="img/news/5.PNG"></a>
+                    <a href="http://www.bbc.com/news/uk-politics-38996179">
+                        <p>Tony Blair calls for people to 'rise up' against Brexit</p></a>
                 
                 </div>
             </div>
             <div class="news-title">
-                <a href="news.html">
+                <a href="news.php">
                     <figure class="wp-caption">
                         <img class="demo" src="img/video/img.jpg" alt="Image" />
                         <figcaption class="wp-caption-text" id="lang0">News</figcaption>
@@ -110,9 +132,9 @@
                 </a>
             </div>
             <div class="event">
-                <a href="#">
+                <a href="event.php">
                     <figure class="wp-caption">
-                        <img class="demo" src="img/event/event.png" alt="Image" />
+                        <img class="demo" src="img/event/event.jpg" alt="Image" />
                         <figcaption class="wp-caption-text" id="lang1">Event</figcaption>
                     </figure>
                 </a>
@@ -120,11 +142,11 @@
         </div>            
         <div class="right">
             <div class="right-top">
-                <div class="welcome-to">
-                    <a href="welcome.html"><img src="img/welcome/welcome.jpg"></a>
+                <div class="introduction">
+                    <a href="introduction.php"><img src="img/welcome/welcome.jpg"></a>
                 </div>
                 <div class="menu">
-                    <a href="menu.html">
+                    <a href="menu.php">
                         <figure class="wp-caption">
                             <img class="demo" src="img/menu/food.jpg" alt="Image" />
                             <figcaption class="wp-caption-text" id="lang2">Menu</figcaption>
@@ -134,7 +156,7 @@
             </div>
             <div class="right-bottom">
                 <div class="hotel">
-                    <a>
+                    <a href="services.php">
                         <figure class="wp-caption">
                             <img class="demo" src="img/room/room.jpg" alt="Image" />
                             <figcaption class="wp-caption-text" id="lang3">Hotel Services</figcaption>
@@ -142,7 +164,7 @@
                     </a>
                 </div>
                 <div class="hotel">
-                    <a href="travel.html">
+                    <a href="travel.php">
                         <figure class="wp-caption">
                             <img class="demo" src="img/map/city.png" alt="Image" />
                             <figcaption class="wp-caption-text" id="lang4">City Guide</figcaption>
@@ -150,7 +172,7 @@
                     </a>
                 </div>
                 <div class="hotel" STYLE="border-right: 0;">
-                    <a href="video/entertainment.html">
+                    <a href="video/entertainment.php">
                         <figure class="wp-caption">
                             <img class="demo" src="img/video/video.png" alt="Image" />
                             <figcaption class="wp-caption-text" id="lang5">Video</figcaption>
@@ -168,6 +190,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/language.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js'></script>
+    <script src="weather/js/ip.js"></script>
+    <script src="weather/js/index.js"></script>
 </body>
-
 </html>

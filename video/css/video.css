@@ -113,8 +113,6 @@ i.mdi.mdi-close.text-black {
 nav.navbar.navbar-default.navbar-fixed-top {
     height: 64px;
     background-color: #EEEEEE;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 p.text-binding {
@@ -188,4 +186,28 @@ html {
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
     /* background: #FF0000; */
+}
+
+img.img-responsive {
+    margin-top: 6px;
+}
+div#top-title {
+    float: left;
+    padding-top: 21.25px;
+    padding-left: 20px;
+    color: white;
+    font-size: 19px;
+    font-family: arial;
+}
+
+div#top-icon {
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+div#top-panel-ent {
+    width: 100%;
+    height: 64px;
+    background-color: #DC4637;
 }

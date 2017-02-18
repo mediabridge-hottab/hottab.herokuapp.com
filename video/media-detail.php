@@ -3,15 +3,17 @@
 	<title>HotTab</title>
 	<link rel="stylesheet" href="http://cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
 	<link rel="stylesheet" href="css/video.css">
+<!--     <link rel="stylesheet" href="css/media-detail.css"> -->
+        <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div id="top-panel-ent">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div id="top-icon"><a href="entertainment.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
+            <div id="top-title">Videos</div>
+        </div>
+    </nav>
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="nav-top">
-			<button class="button button-icon toolbar-button toolbar-back">
-				<i class="mdi mdi-close text-black"></i>
-			</button>
-		</div>
-	</nav>
 	<div class="main-page">
 		<div id="left">
 			<iframe width="100%" height="360" src="https://www.youtube.com/embed/nPo2B-vjZ28" frameborder="0" allowfullscreen></iframe>
