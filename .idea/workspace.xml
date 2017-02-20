@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4440f881-3da7-4691-bb80-c566f281af2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4440f881-3da7-4691-bb80-c566f281af2f" name="Default" comment="" />
     <ignored path="hottab.herokuapp.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -26,7 +24,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="1513">
               <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
               <folding />
             </state>
@@ -46,25 +44,9 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="1802">
               <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-              <folding>
-                <marker date="1487217578231" expanded="true" signature="182:201" ph="SELECT * FRO... hotel" />
-                <marker date="1487217578231" expanded="true" signature="406:497" ph="INSERT INTO `list_menu`... " />
-                <marker date="1487217578231" expanded="true" signature="645:668" ph="SELECT * FRO... list_menu" />
-                <marker date="1487217578231" expanded="true" signature="983:1115" ph="INSERT INTO `category`... " />
-                <marker date="1487217578231" expanded="true" signature="1275:1297" ph="SELECT * FRO... category" />
-                <marker date="1487217578231" expanded="true" signature="1489:1528" ph="DELETE FROM " />
-                <marker date="1487217578231" expanded="true" signature="1693:1732" ph="SELECT * FRO... category" />
-                <marker date="1487217578231" expanded="true" signature="2660:2683" ph="SELECT * FRO... list_menu" />
-                <marker date="1487217578231" expanded="true" signature="2875:2915" ph="DELETE FROM " />
-                <marker date="1487217578231" expanded="true" signature="3071:3111" ph="SELECT * FRO... list_menu" />
-                <marker date="1487217578231" expanded="true" signature="3319:3416" ph="UPDATE `list... " />
-                <marker date="1487217578231" expanded="true" signature="3573:3611" ph="UPDATE `ip_u... " />
-                <marker date="1487217578231" expanded="true" signature="3573:3613" ph="UPDATE `ip_u... " />
-                <marker date="1487217578231" expanded="true" signature="3723:3751" ph="SELECT * FRO... ip_user" />
-                <marker date="1487217578231" expanded="true" signature="3723:3752" ph="SELECT * FRO... ip_user" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,9 +76,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <marker date="1487219083048" expanded="true" signature="280:285" ph="°" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,7 +218,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,17 +297,18 @@
       <workItem from="1487160284547" duration="11490000" />
       <workItem from="1487211681352" duration="598000" />
       <workItem from="1487215137565" duration="4679000" />
+      <workItem from="1487598128477" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53868000" />
+    <option name="totallyTimeSpent" value="53879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -631,9 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1487219083048" expanded="true" signature="280:285" ph="°" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -641,37 +620,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="1802">
           <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-          <folding>
-            <marker date="1487217578231" expanded="true" signature="182:201" ph="SELECT * FRO... hotel" />
-            <marker date="1487217578231" expanded="true" signature="406:497" ph="INSERT INTO `list_menu`... " />
-            <marker date="1487217578231" expanded="true" signature="645:668" ph="SELECT * FRO... list_menu" />
-            <marker date="1487217578231" expanded="true" signature="983:1115" ph="INSERT INTO `category`... " />
-            <marker date="1487217578231" expanded="true" signature="1275:1297" ph="SELECT * FRO... category" />
-            <marker date="1487217578231" expanded="true" signature="1489:1528" ph="DELETE FROM " />
-            <marker date="1487217578231" expanded="true" signature="1693:1732" ph="SELECT * FRO... category" />
-            <marker date="1487217578231" expanded="true" signature="2660:2683" ph="SELECT * FRO... list_menu" />
-            <marker date="1487217578231" expanded="true" signature="2875:2915" ph="DELETE FROM " />
-            <marker date="1487217578231" expanded="true" signature="3071:3111" ph="SELECT * FRO... list_menu" />
-            <marker date="1487217578231" expanded="true" signature="3319:3416" ph="UPDATE `list... " />
-            <marker date="1487217578231" expanded="true" signature="3573:3611" ph="UPDATE `ip_u... " />
-            <marker date="1487217578231" expanded="true" signature="3573:3613" ph="UPDATE `ip_u... " />
-            <marker date="1487217578231" expanded="true" signature="3723:3751" ph="SELECT * FRO... ip_user" />
-            <marker date="1487217578231" expanded="true" signature="3723:3752" ph="SELECT * FRO... ip_user" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="1513">
           <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
           <folding />
         </state>
