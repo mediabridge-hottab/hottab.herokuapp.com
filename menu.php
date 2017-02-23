@@ -31,7 +31,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div id="top-icon"><a href="index.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
             <div id="top-title">Digital menu</div>
-            <img id="order-image" src="img/menu/order.png" alt="">
+            <a href="order.php"><img id="order-image" src="img/menu/order.png" alt=""></a>
         </div>
     </nav>
 </head>
@@ -39,6 +39,41 @@
 <body onload="startTime()">
 <!-- Page Content -->
 <div class="container1">
+    <div class="tokenKey" id="tokenKey" style="display: none" >
+        <?php
+            session_start();
+            $curl = curl_init();
+
+            curl_setopt_array($curl, array(
+                CURLOPT_URL => "http://api.hottab.pw/admin/login?hotel_id=10",
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => "",
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 30,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => "POST",
+                CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nninh@hottab.net\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
+                CURLOPT_HTTPHEADER => array(
+                    "cache-control: no-cache",
+                    "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
+                    "postman-token: 7c59b465-3fc8-deeb-d212-03be6e92ca28"
+                ),
+            ));
+
+            $response = curl_exec($curl);
+            $err = curl_error($curl);
+
+            curl_close($curl);
+
+            if ($err) {
+                echo "cURL Error #:" . $err;
+            } else {
+                $pieces = explode("\"", $response);
+                echo ($pieces[5]);
+                $_SESSION['tokenKey'] = $pieces[5];
+            }
+        ?>
+    </div>
     <div class="left" id="menuCate">
 
     </div>

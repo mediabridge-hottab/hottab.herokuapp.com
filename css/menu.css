@@ -4,8 +4,10 @@
 .container1 .left{
     width: 7%;
     height: 100%;
-    background-color: #111111;
+    background-color: #302E31;
     border: 0;
+    color: #FFFFFF;
+    overflow: scroll;
 }
 .container1 .left .item{
     width: 100%;
@@ -34,7 +36,7 @@
 .container1 .left .item .mdi:before, .mdi-set{
     font-size: 49px;
     float: left;
-    color: #444444;
+    color: #FFFFFF;
     width: 100%;
     text-align: center;
 }
@@ -50,8 +52,8 @@
     overflow-y: scroll;
 }
 .container1 .right .item{
-    width: 25%;
-    height: 50%;
+    width: 14%;
+    height: 30%;
     float: left;
     /* border: 3px solid #EEEEEE; */
     /* border-top: 0; */

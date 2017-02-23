@@ -1,0 +1,50 @@
+
+.container1 .col-lg-4{
+    float: left;
+
+}
+.container1 .col-lg-4>img{
+    object-fit: cover;
+    float: left;
+    width: 100%;
+}
+.container1 .col-lg-4 .top{
+    width: 100%;
+    height: 60px;
+    background-color: #DC4637;
+    font-size: 18px;
+    padding-left: 67px;
+    padding-top: 19px;
+    color: white;
+}
+.container1 .col-lg-4 .top >p{
+    width: 50%;
+    float: left;
+}
+.container1 .col-lg-4 >input{
+    margin-left: 20px;
+}
+.container1 .col-lg-4 .bootom{
+    width: 100%;
+    height: 35px;
+    color: white;
+    margin-top: 30px;
+}
+.container1 .col-lg-4 .bootom >input{
+    width: 10%;
+    float: left;
+    height: 100%;
+    color: black;
+ }
+.container1 .col-lg-4 .bootom >p{
+    float: left;
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    background-color: #6c6c6c;
+}
+.container1 .col-lg-4 .bootom >p:hover{
+    color: #00d6b2;
+}

@@ -1,0 +1,575 @@
+* {}
+
+div#order-price {
+    float: right;
+    height: 100%;
+    padding-right: 20px;
+    padding-top: 19px;
+    color: white;
+    font: inherit;
+    font-size: 19px;
+}
+
+div#top-order-id {
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 19px;
+    color: white;
+    font: inherit;
+    font-size: 19px;
+}
+
+div#weather {
+    margin-left: 25px;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
+html,body{
+	height: 100%;
+	background-color: #EEEEEE;
+}
+.navbar-inverse{
+	height: 64px;
+	background-color: #DC4637;
+	border-color: #DC4637;
+}
+.navbar-brand>img{
+    width: 40px;
+    float: left;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.navbar-brand>p{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+.timeBar{
+    color: #FFFFFF;
+    float: right;
+    margin-top: 19px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.flag{
+	float: right;
+    margin-right: 0px;
+	margin: 6px;
+}
+.flag>ul{
+	list-style: none;
+	float: left;
+}
+.flag>ul>li{
+	float: left;
+	width: 100%;
+	height: 100%;
+	color: transparent;
+}
+.flag .open>ul{
+    width: 150px;
+    background-color: white;
+    margin-left: -100px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+.flag .open>ul>li{
+	width: 100%;
+	margin-top: 3px;
+	border-left: 20px solid #ffffff;
+	border-top: 20px solid #ffffff;
+}
+
+.flag .open>ul>li:hover{
+	background-color: #F5F5F5;
+}
+.flag .dropdown{
+	width: 32px;
+	height: 50px;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.flag .dropdown-menu{
+    margin-top: -3px;
+    min-width: 171px;
+    cursor: pointer;
+}
+.flag .dropdown .btn-primary{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.flag .dropdown .btn-primary>img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0px 1px 1px 1px #AC372B;
+}
+.flag .open>.dropdown-toggle.btn-primary{
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.flag .fl{
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+.flag .vi{
+	background-image: url("../img/flags/vi.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .ja{
+	background-image: url("../img/flags/ja.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .es{
+	background-image: url("../img/flags/es.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .ko{
+	background-image: url("../img/flags/ko.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag .fr{
+	background-image: url("../img/flags/fr.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}.flag .zh-cn{
+	 background-image: url("../img/flags/zh-cn.png");
+	 background-size: 28px 19px;
+	 background-repeat: no-repeat;
+	 padding-left: 38px;
+ }
+.flag .th{
+	background-image: url("../img/flags/th.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+
+.flag .en{
+	background-image: url("../img/flags/en.png");
+	background-size: 28px 19px;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+}
+.flag>img{
+	width: 40%;
+	margin-left: 17px;
+	margin-top: 20px;
+	box-shadow: 0px 1px 1px 1px #AC372B;
+	margin: 0;
+	padding: 0;
+}
+.dropdown{
+	float: right;
+}
+.container1{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.container1 .left{
+	width: 25.5%;
+	height: 100%;
+	float: left;
+	border: 7px solid #EEEEEE;
+	border-top: 0;
+}
+.container1 .right{
+	width: 74%;
+	float: left;
+	height: 100%;
+	border-top: 7px solid #EEEEEE;
+	border-top: 0;
+}
+.container1 .left .weather-data{
+    width: 100%;
+    height: 25%;
+    background-color: #DC4637;
+    float: left;
+    border-bottom: 5px solid #EEEEEE;
+    color: white;
+}
+
+.container1 .left .news-data{
+    width: 100%;
+    height: 37.25%;
+    background-color: #FFFFFF;
+    float: left;
+    border-bottom: 5px solid #EEEEEE;
+}
+.container1 .left .news-data .item{
+	width: 100%;
+	height: 19%;
+	float: left;
+	overflow: hidden;
+	border-bottom: 1px solid #EEEEEE;
+}
+.container1 .left .news-data .item:hover{
+	background-color: #EEEEEE;
+	text-decoration: none;
+	color: #000000;
+}
+.container1 .left .news-data .item>a{
+	width: 100%;
+	height: 100%;
+}
+
+.container1 .left .news-data .item>a>img{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid #FFFFFF;
+}
+.container1 .left .news-data .item>a>p{
+	width: 75%;
+    height: 100%;
+    margin-left: 2%;
+    float: left;
+    overflow: hidden;
+    font-size: 85%;
+}
+
+.container1 .left .news-data .item>p{
+	padding-top: 1%;
+	width: 70%;
+	height: 85%;
+	float: left;
+	overflow: hidden;
+	text-align: justify;
+}
+.container1 .left .news-title{
+	width: 100%;
+	height: 6%;
+	background-color: #fff;
+	float: left;
+	border-bottom: 7px solid #EEEEEE;
+}
+.container1 .left .news-title>a{
+	color: #000000;
+}
+.container1 .left .news-title>a>p{
+	width: 90%;
+	height: 100%;
+	background: #ffffff;
+    font-weight: bold;
+}
+.container1 .left .event{
+	width: 100%;
+	height: 31.5%;
+	float: left;
+}
+.container1 .left .event>a>img{
+	width: 100%;
+	height: 74%;
+}
+.container1 .left .event>a{
+	color: #000000;
+}
+.container1 .left .event>a:hover, click{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.container1 .left .event>a>p{
+	width: 90%;
+	height: 23%;
+	background: #ffffff;
+    font-weight: bold;
+    padding-left: 1%;
+    text-align: justify;
+}
+.container1 .left .weather-data >img{
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top{
+	width: 100%;
+	float: left;
+	height: 60%;
+	border-bottom: 7px solid #EEEEEE;
+}
+.container1 .right .right-top .introduction{
+	width: 45.25%;
+	height: 100%;
+	float: left;
+	border-right: 7px solid #EEEEEE;
+}
+.container1 .right .right-top .introduction>a{
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top .introduction>a>img{
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top .introduction>a>img:hover,click{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+.container1 .right .right-top .menu{
+	width: 54.75%;
+	height: 100%;
+	background-color: pink;
+	float: left;
+}
+.container1 .right .right-top .menu>a:hover{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+.container1 .right .right-top .menu>a:click{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.container1 .right .right-top .menu>a{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	color: #000000;
+}
+.container1 .right .right-top .menu>a{
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top .menu>a>img{
+	width: 100%;
+	height: 88%;
+}
+.container1 .right .right-top .menu>a>p{
+	width: 90%;
+	height: 12%;
+	background: #ffffff;
+    font-weight: bold;
+}
+.container1 .right .right-bottom{
+	width: 100%;
+	float: left;
+	height: 38.5%;
+	float: left;
+}
+.container1 .right .right-bottom .hotel{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	border-right: 7px solid #EEEEEE;
+}
+.container1 .right .right-bottom .hotel>a{
+	background-color: #FCFCFC;
+	text-decoration: none;
+	color: #000000;
+}
+.container1 .right .right-bottom .hotel>a>img{
+	width: 100%;
+	height: 79%;
+}
+.container1 .right .right-bottom .hotel>iframe{
+	width: 100%;
+	height: 77%;
+}
+.container1 .right .right-bottom .hotel>a>p{
+	width: 90%;
+	height: 17%;
+	background: #ffffff;
+    font-weight: bold;
+}
+.container1 .right .right-bottom .hotel>a:hover,click {
+	background-color: #FCFCFC;
+	text-decoration: none;
+	opacity: 0.5;
+}
+select#la option[value="vi"]{
+	background-image:url('../img/flags/vi.png');
+}
+.container1 .right .right-top .menu .wp-caption {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-top .menu .wp-caption:hover {
+	opacity: 0.8;
+}
+.container1 .right .right-top .menu .wp-caption img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container1 .right .right-top .menu .wp-caption:after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+	z-index: 1;
+}
+.container1 .right .right-top .menu .wp-caption-text {
+	display: block;
+	position: absolute;
+	width: 100%;
+	color: #000000;
+	left: 0;
+	bottom: 0;
+	padding: 1em;
+	font-weight: 700;
+	background-color: whitesmoke;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*Services*/
+
+.container1 .right .right-bottom .hotel .wp-caption {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.container1 .right .right-bottom .hotel .wp-caption:hover {
+	opacity: 0.8;
+}
+.container1 .right .right-bottom .hotel .wp-caption img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container1 .right .right-bottom .hotel .wp-caption:after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+	z-index: 1;
+}
+.container1 .right .right-bottom .hotel .wp-caption-text {
+	display: block;
+	position: absolute;
+	width: 100%;
+	color: #000000;
+	left: 0;
+	bottom: 0;
+	padding: 1em;
+	font-weight: 700;
+	background-color: whitesmoke;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*event*/
+.container1 .left .event .wp-caption {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container1 .left .event .wp-caption:hover {
+	opacity: 0.8;
+}
+.container1 .left .event .wp-caption img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container1 .left .event .wp-caption:after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+	z-index: 1;
+}
+.container1 .left .event .wp-caption-text {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 28%;
+	color: #000000;
+	left: 0;
+	bottom: 0;
+	padding: 0.7em;
+	font-weight: 700;
+	background-color: whitesmoke;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*news*/
+.container1 .left .news-title .wp-caption {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.container1 .left .news-title .wp-caption:hover {
+	opacity: 0.8;
+}
+.container1 .left .news-title .wp-caption img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container1 .left .news-title .wp-caption:after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1%;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+	z-index: 1;
+}
+.container1 .left .news-title .wp-caption-text {
+	display: block;
+	position: absolute;
+	width: 100%;
+	color: #000000;
+	left: 0;
+	bottom: 0;
+	padding: 0.7em;
+	font-weight: 700;
+	background-color: whitesmoke;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
