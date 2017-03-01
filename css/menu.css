@@ -537,3 +537,9 @@
         background-repeat: no-repeat;
     }
 }
+.orderDetail{
+    margin-right: -15px;
+    margin-left: -34px;
+    margin-top: -6px;
+    border-bottom: 10px solid #FFF;
+}

@@ -44,7 +44,7 @@ if(isset($_SESSION['sess'])){
         <div id="top-panel-ent">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div id="top-icon"><a href="index.php" id="back"><i class="mdi mdi-arrow-left"></i></a></div>
-            <div id="top-title">Digital menu</div>
+            <div id="top-title">Hotel Services</div>
         </div>
     </nav>
     <!-- ./end nav -->
@@ -55,36 +55,36 @@ if(isset($_SESSION['sess'])){
         <div class="tokenKey" id="tokenKey" style="display: none">
             <?php
 
-                $curl = curl_init();
+            $curl = curl_init();
 
-                curl_setopt_array($curl, array(
-                    CURLOPT_URL => "http://api.hottab.pw/admin/login?hotel_id=10",
-                    CURLOPT_RETURNTRANSFER => true,
-                    CURLOPT_ENCODING => "",
-                    CURLOPT_MAXREDIRS => 10,
-                    CURLOPT_TIMEOUT => 30,
-                    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                    CURLOPT_CUSTOMREQUEST => "POST",
-                    CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nninh@hottab.net\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
-                    CURLOPT_HTTPHEADER => array(
-                        "cache-control: no-cache",
-                        "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
-                        "postman-token: 7c59b465-3fc8-deeb-d212-03be6e92ca28"
-                    ),
-                ));
+            curl_setopt_array($curl, array(
+                CURLOPT_URL => "http://api.hottab.co/admin/login?email=hoteltablet@hottab.net&password=123456",
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => "",
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 30,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => "POST",
+                CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nhoteltablet@hottab.net\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
+                CURLOPT_HTTPHEADER => array(
+                    "cache-control: no-cache",
+                    "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
+                    "postman-token: 7c59b465-3fc8-deeb-d212-03be6e92ca28"
+                ),
+            ));
 
-                $response = curl_exec($curl);
-                $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $err = curl_error($curl);
 
-                curl_close($curl);
+            curl_close($curl);
 
-                if ($err) {
-                    echo "cURL Error #:" . $err;
-                } else {
-                    $pieces = explode("\"", $response);
-                    echo ($pieces[5]);
-                    $_SESSION['tokenKey'] = $pieces[5];
-                }
+            if ($err) {
+                echo "cURL Error #:" . $err;
+            } else {
+                $pieces = explode("\"", $response);
+                echo ($pieces[5]);
+                $_SESSION['tokenKey'] = $pieces[5];
+            }
             ?>
         </div>
         <div class="left" id="menuCate">
@@ -108,7 +108,7 @@ if(isset($_SESSION['sess'])){
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Function -->
-    <script src="js/menu.js"></script>
+    <script src="js/Services.js"></script>
   
 </body>
 

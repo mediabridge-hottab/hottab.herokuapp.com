@@ -3,7 +3,7 @@ var idStart = 0;
 $(document).ready(function() {
 
     //consolog("tokenKey: "+tokenKey);
-   // console.log(tokenKey);
+    // console.log(tokenKey);
     $.ajax({
         url: 'http://api.hottab.co/admin/new-food-categories?hotel_id=189&lang=vi&token='+tokenKey.trim(),
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
             //console.log((data));
 
             $.each(data['data'], function(i, star) {
-                if(star['name']!='Services') {
+                if(star['name']=='Services') {
                     if (idStart == 0) {
                         idStart = star['id'];
                         $.ajax({
@@ -22,7 +22,7 @@ $(document).ready(function() {
                             url: 'http://api.hottab.co/admin/new-foods/category/' + idStart + '?hotel_id=189&lang=vi&token=' + tokenKey.trim(),
                             type: 'get',
                             success: function (data) {
-                               // console.log(data['data']['foods']);
+                                // console.log(data['data']['foods']);
                                 $('#stars').empty();
                                 $.each(data['data']['foods'], function (i1, f) {
                                     if (f['intro_img_original'] != null) {
@@ -151,7 +151,7 @@ $(document).ready(function() {
 });
 
 function directData(idDi){
-    //console.log(tokenKey);
+   /* //console.log(tokenKey);
     $.ajax({
         url: 'http://api.hottab.co/admin/new-foods/category/'+idDi+'?hotel_id=189&lang=vi&token='+tokenKey.trim(),
         type:'get',
@@ -216,8 +216,5 @@ function directData(idDi){
             $("#stars").css('background','#eeeeee');
         },
         dataType: 'json'
-    });
-}
-function sess() {
-    alert('Order thành công.');
+    });*/
 }

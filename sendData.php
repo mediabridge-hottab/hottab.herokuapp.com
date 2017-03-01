@@ -34,22 +34,27 @@
 <body>
 <?php
 session_start();
-if(isset($_SESSION['order'])){
+//if(isset($_SESSION['order'])){
 date_default_timezone_set("Asia/Ho_Chi_Minh");
-$menuList = isset($_SESSION['order'])? $_SESSION['order'] : '';
-$name = explode('&',$menuList['name']);
-$price = explode('&',$menuList['price']);
-$number = explode('&',$menuList['number']);
-$img = explode('&',$menuList['img']);
-$id = explode('&',$menuList['id']);
-unset($_SESSION['order']);
+//$menuList = isset($_SESSION['order'])? $_SESSION['order'] : '';
+//$name = explode('&',$menuList['name']);
+$price = explode('@@@',$_GET['price']);
+$number = explode('@@@',$_GET['number']);
+//$img = explode('&',$menuList['img']);
+$id = explode('@@@',$_GET['id']);
+//unset($_SESSION['order']);
 $sum = 0;
- for ($i = 0; $i < sizeof($name); $i++){
+
+//var_dump($price);
+//var_dump($id);
+//var_dump($number);
+ for ($i = 0; $i < sizeof($number); $i++){
                         $sum += $price[$i]*$number[$i];
                      
- }                    
-for ($i = 0; $i < sizeof($name); $i++) {
-if($id[$i]!=''){
+ }
+ //var_dump(($sum));
+for ($i = 0; $i < sizeof($number)-1; $i++) {
+
     $data[$i] = array(
         "\r\n           \"$i\": {
             \r\n            \"priority\": \"0\",
@@ -73,7 +78,7 @@ if($id[$i]!=''){
             \r\n            \"quantity_refunded\": \"0.0\"
             \r\n        "
     );
-}}
+}
 ?>
 
 
@@ -83,7 +88,7 @@ if($id[$i]!=''){
 
     <?php
 
-    for ($i = 0; $i < sizeof($name); $i++) {
+    for ($i = 0; $i < sizeof($number)-1; $i++) {
         $str[$i] = "\r\n            \"$i\": {
     \r\n            \"priority\": \"0\",
     \r\n            \"is_wasted\": \"0\",
@@ -186,10 +191,10 @@ if($id[$i]!=''){
     \r\n    \"type\": \"1\",
     \r\n    \"card_refunded\": \"0.0\",
     \r\n    \"discounts\": [{
-    \r\n        \"amount\": \"13000.0\",
+    \r\n        \"amount\": \"0.0\",
     \r\n        \"id\": \"99\",
     \r\n        \"type\": \"0\",
-    \r\n        \"name\": \"My Holiday Discounts\"
+    \r\n        \"name\": \"\"
     \r\n    }],
     \r\n    \"is_online_order\": \"false\",
     \r\n    \"transaction_id\": \"".date("YmdHis")."\",
@@ -198,7 +203,7 @@ if($id[$i]!=''){
     \r\n    \"waiter_note\": \"\",
     \r\n    \"total\": \"$sum\",
     \r\n    \"unique_id\": \"".date("YmdHis")."\",
-    \r\n    \"room_id\": \"243\",
+    \r\n    \"room_id\": \"35533\",
     \r\n    \"updated_at\": \"".date("Y-m-d H:i:s")."\",
     \r\n    \"total_tax\": \"0.0\",
     \r\n    \"guest_id\": \"21\",
@@ -211,12 +216,12 @@ if($id[$i]!=''){
     \r\n    \"total_discount\": \"13000.0\",
     \r\n    \"created_at\": \"".date("Y-m-d H:i:s")."\",
     \r\n    \"user_id\": \"856\",
-    \r\n    \"hotel_id\": 10
+    \r\n    \"hotel_id\": 189
     \r\n}";
     $curl = curl_init();
-
+    //var_dump($str);
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "http://api.hottab.pw/v2/cashier/food-orders/create-or-update?token=".$_SESSION['tokenKey'],
+        CURLOPT_URL => "http://api.hottab.co/v2/cashier/food-orders/create-or-update?token=".$_SESSION['tokenKey'],
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
@@ -237,14 +242,13 @@ if($id[$i]!=''){
     curl_close($curl);
 
     if ($err) {
-        echo "cURL Error #:" . $err;
+       // echo "cURL Error #:" . $err;
     } else {
        $_SESSION['sess']=1;
-        // print_r(date("Y-m-d H:i:s"));
+     //   print_r(date("Y-m-d H:i:s"));
        // print_r($response);
-       header("location: menu.php");
-
-    }
+        header("Location: menu.php");
+    //}
     }?>
 </div>
 <!-- ./end -->

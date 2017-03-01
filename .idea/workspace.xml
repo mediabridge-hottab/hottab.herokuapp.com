@@ -2,149 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4440f881-3da7-4691-bb80-c566f281af2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deleteMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sendData.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/materialdesignicons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/materialdesignicons.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style_sang.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/thumbnail-gallery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/welcome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back-button (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/entertainment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/media-detail.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/thumbnail-gallery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/video.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/entertainment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/back-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/hqdefault-016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/play-icon-001.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/play-icon-002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/entertainment/play-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/es.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/fr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/ja.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/ko.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/th.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/vi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/flags/zh-cn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/AUTHORS.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/external/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-ui-1.12.1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery.mousewheel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/media-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weather/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welcome.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/event.css" afterPath="$PROJECT_DIR$/css/event.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/introduction.css" afterPath="$PROJECT_DIR$/css/introduction.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/menu.css" afterPath="$PROJECT_DIR$/css/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/services.css" afterPath="$PROJECT_DIR$/css/services.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/travel.css" afterPath="$PROJECT_DIR$/css/travel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/viewMenu.css" afterPath="$PROJECT_DIR$/css/viewMenu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event.php" afterPath="$PROJECT_DIR$/event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functionMenu.php" afterPath="$PROJECT_DIR$/functionMenu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/introduction.php" afterPath="$PROJECT_DIR$/introduction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menu.js" afterPath="$PROJECT_DIR$/js/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sendData.js" afterPath="$PROJECT_DIR$/js/sendData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/viewMenu.js" afterPath="$PROJECT_DIR$/js/viewMenu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.php" afterPath="$PROJECT_DIR$/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.php" afterPath="$PROJECT_DIR$/news.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/css/style.css" afterPath="$PROJECT_DIR$/news/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order.php" afterPath="$PROJECT_DIR$/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendData.php" afterPath="$PROJECT_DIR$/sendData.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.php" afterPath="$PROJECT_DIR$/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travel.php" afterPath="$PROJECT_DIR$/travel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video/entertainment.php" afterPath="$PROJECT_DIR$/video/entertainment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video/media-detail.php" afterPath="$PROJECT_DIR$/video/media-detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewMenu.php" afterPath="$PROJECT_DIR$/viewMenu.php" />
     </list>
     <ignored path="hottab.herokuapp.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,15 +31,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="217" column="35" selection-start-line="217" selection-start-column="35" selection-end-line="217" selection-end-column="35" />
-              <folding>
-                <element signature="e#3872#3879#0#HTML" expanded="true" />
-                <element signature="e#4620#4627#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="1981">
+              <caret line="119" column="59" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,34 +44,24 @@
       <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="142" column="32" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="32" />
+            <state relative-caret-position="-136">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <element signature="e#1281#4536#0" expanded="false" />
-                <marker date="1488271306096" expanded="true" signature="5744:5751" ph="..." />
-                <marker date="1488271306096" expanded="true" signature="6985:6992" ph="..." />
-                <marker date="1488271306096" expanded="true" signature="8667:8674" ph="..." />
-                <marker date="1488271306096" expanded="true" signature="9834:9841" ph="..." />
+                <element signature="e#5630#8973#0" expanded="false" />
+                <marker date="1488385095178" expanded="true" signature="2941:2948" ph="..." />
+                <marker date="1488385095178" expanded="true" signature="4576:4583" ph="..." />
+                <marker date="1488385095178" expanded="true" signature="10150:10157" ph="..." />
+                <marker date="1488385095178" expanded="true" signature="11323:11330" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order.php">
+      <file leaf-file-name="menu.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="88" column="111" selection-start-line="88" selection-start-column="111" selection-end-line="88" selection-end-column="111" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sendData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="280" column="6" selection-start-line="280" selection-start-column="6" selection-end-line="280" selection-end-column="6" />
+            <state relative-caret-position="497">
+              <caret line="543" column="35" selection-start-line="543" selection-start-column="35" selection-end-line="543" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -217,43 +70,28 @@
       <file leaf-file-name="viewMenu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/viewMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="200">
+              <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="36" />
               <folding>
-                <marker date="1488272231145" expanded="true" signature="768:775" ph="..." />
-                <marker date="1488272231145" expanded="true" signature="2016:2031" ph="..." />
-                <marker date="1488272231145" expanded="true" signature="2480:2487" ph="..." />
-                <marker date="1488272231145" expanded="true" signature="3717:3732" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="806:813" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="2054:2069" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="2518:2525" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="3755:3770" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="4089:4148" ph="{...}" />
+                <marker date="1488390978999" expanded="true" signature="4607:4620" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="4995:5008" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="5099:5111" ph="..." />
+                <marker date="1488390978999" expanded="true" signature="5169:5182" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functionMenu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functionMenu.php">
+      <file leaf-file-name="sendData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sendData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteMenu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewMenu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/viewMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="40" selection-end-column="27" />
+            <state relative-caret-position="392">
+              <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -288,17 +126,20 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/viewMenu.css" />
-        <option value="$PROJECT_DIR$/css/menu.css" />
         <option value="$PROJECT_DIR$/viewMenu.php" />
         <option value="$PROJECT_DIR$/css/order.css" />
         <option value="$PROJECT_DIR$/functionMenu.php" />
         <option value="$PROJECT_DIR$/css/viewMenu.css" />
         <option value="$PROJECT_DIR$/order.php" />
-        <option value="$PROJECT_DIR$/js/menu.js" />
-        <option value="$PROJECT_DIR$/js/viewMenu.js" />
-        <option value="$PROJECT_DIR$/sendData.php" />
         <option value="$PROJECT_DIR$/deleteMenu.php" />
+        <option value="$PROJECT_DIR$/js/sendData.js" />
+        <option value="$PROJECT_DIR$/js/menu.js" />
+        <option value="$PROJECT_DIR$/js/Services.js" />
+        <option value="$PROJECT_DIR$/services.php" />
         <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/sendData.php" />
+        <option value="$PROJECT_DIR$/js/viewMenu.js" />
+        <option value="$PROJECT_DIR$/css/menu.css" />
       </list>
     </option>
   </component>
@@ -346,31 +187,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hottab.herokuapp.com.Feb28th201711AM11" />
+              <option name="myItemId" value="hottab.herokuapp.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hottab.herokuapp.com.Feb28th201711AM11" />
+              <option name="myItemId" value="hottab.herokuapp.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hottab.herokuapp.com.Feb28th201711AM11" />
+              <option name="myItemId" value="hottab.herokuapp.com" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hottab.herokuapp.com.Feb28th201711AM11" />
+              <option name="myItemId" value="hottab.herokuapp.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hottab.herokuapp.com.Feb28th201711AM11" />
+              <option name="myItemId" value="hottab.herokuapp.com" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -378,10 +221,22 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hottab.herokuapp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hottab.herokuapp.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,17 +327,18 @@
       <workItem from="1488163530492" duration="3407000" />
       <workItem from="1488255245383" duration="2415000" />
       <workItem from="1488264633711" duration="6162000" />
+      <workItem from="1488373861905" duration="13749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88146000" />
+    <option name="totallyTimeSpent" value="101895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16944024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17170954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -538,53 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/viewMenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="90" selection-start-line="33" selection-start-column="90" selection-end-line="33" selection-end-column="90" />
-          <folding>
-            <element signature="e#3872#3879#0#HTML" expanded="true" />
-            <element signature="e#4620#4627#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/language.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/language.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3298">
@@ -710,13 +519,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/viewMenu.css" />
-    <entry file="file://$PROJECT_DIR$/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/order.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -739,117 +541,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hottab.herokuapp.com/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/[sang].order.js">
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#5630#8973#0" expanded="false" />
+            <marker date="1488385095178" expanded="true" signature="2941:2948" ph="..." />
+            <marker date="1488385095178" expanded="true" signature="4576:4583" ph="..." />
+            <marker date="1488385095178" expanded="true" signature="10150:10157" ph="..." />
+            <marker date="1488385095178" expanded="true" signature="11323:11330" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/[sang].order.js" />
     <entry file="file://$PROJECT_DIR$/js/order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="35" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/menu.js">
+    <entry file="file://$PROJECT_DIR$/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="142" column="32" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="32" />
-          <folding>
-            <element signature="e#1281#4536#0" expanded="false" />
-            <marker date="1488271306096" expanded="true" signature="5744:5751" ph="..." />
-            <marker date="1488271306096" expanded="true" signature="6985:6992" ph="..." />
-            <marker date="1488271306096" expanded="true" signature="8667:8674" ph="..." />
-            <marker date="1488271306096" expanded="true" signature="9834:9841" ph="..." />
-          </folding>
+        <state relative-caret-position="-1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/viewMenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="40" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functionMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/viewMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <marker date="1488272231145" expanded="true" signature="768:775" ph="..." />
-            <marker date="1488272231145" expanded="true" signature="2016:2031" ph="..." />
-            <marker date="1488272231145" expanded="true" signature="2480:2487" ph="..." />
-            <marker date="1488272231145" expanded="true" signature="3717:3732" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="280" column="6" selection-start-line="280" selection-start-column="6" selection-end-line="280" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="88" column="111" selection-start-line="88" selection-start-column="111" selection-end-line="88" selection-end-column="111" />
+        <state relative-caret-position="-187">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functionMenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deleteMenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="412">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sendData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#5632#8975#0" expanded="false" />
+            <marker date="1488385155027" expanded="true" signature="2943:2950" ph="..." />
+            <marker date="1488385155027" expanded="true" signature="4578:4585" ph="..." />
+            <marker date="1488385155027" expanded="true" signature="10154:10161" ph="..." />
+            <marker date="1488385155027" expanded="true" signature="11327:11334" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/viewMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="36" />
+          <folding>
+            <marker date="1488390978999" expanded="true" signature="806:813" ph="..." />
+            <marker date="1488390978999" expanded="true" signature="2054:2069" ph="..." />
+            <marker date="1488390978999" expanded="true" signature="2518:2525" ph="..." />
+            <marker date="1488390978999" expanded="true" signature="3755:3770" ph="..." />
+            <marker date="1488390978999" expanded="true" signature="4089:4148" ph="{...}" />
+            <marker date="1488390978999" expanded="true" signature="4607:4620" ph="..." />
+            <marker date="1488390978999" expanded="true" signature="4995:5008" ph="..." />
+            <marker date="1488390978999" expanded="true" signature="5099:5111" ph="..." />
+            <marker date="1488390978999" expanded="true" signature="5169:5182" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="217" column="35" selection-start-line="217" selection-start-column="35" selection-end-line="217" selection-end-column="35" />
+        <state relative-caret-position="1981">
+          <caret line="119" column="59" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#3872#3879#0#HTML" expanded="true" />
-            <element signature="e#4620#4627#0#HTML" expanded="true" />
+            <element signature="e#5630#8973#0" expanded="false" />
+            <marker date="1488385095178" expanded="true" signature="2941:2948" ph="..." />
+            <marker date="1488385095178" expanded="true" signature="4576:4583" ph="..." />
+            <marker date="1488385095178" expanded="true" signature="10150:10157" ph="..." />
+            <marker date="1488385095178" expanded="true" signature="11323:11330" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="543" column="35" selection-start-line="543" selection-start-column="35" selection-end-line="543" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

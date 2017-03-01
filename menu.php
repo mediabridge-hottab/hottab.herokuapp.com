@@ -59,14 +59,14 @@ if(isset($_SESSION['sess'])){
                 $curl = curl_init();
 
                 curl_setopt_array($curl, array(
-                    CURLOPT_URL => "http://api.hottab.pw/admin/login?hotel_id=10",
+                    CURLOPT_URL => "http://api.hottab.co/admin/login?email=hoteltablet@hottab.net&password=123456",
                     CURLOPT_RETURNTRANSFER => true,
                     CURLOPT_ENCODING => "",
                     CURLOPT_MAXREDIRS => 10,
                     CURLOPT_TIMEOUT => 30,
                     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                     CURLOPT_CUSTOMREQUEST => "POST",
-                    CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nninh@hottab.net\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
+                    CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nhoteltablet@hottab.net\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
                     CURLOPT_HTTPHEADER => array(
                         "cache-control: no-cache",
                         "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
@@ -118,62 +118,23 @@ if(isset($_SESSION['sess'])){
                         <h4 class="modal-title">YOUR ORDER</h4>
                     </div>
                     <div class="modal-body" id="modal-body2">
-                        <?php
 
-                        if(isset($_SESSION['order'])){
-                            $menuList = isset($_SESSION['order'])? $_SESSION['order'] : '';
-                            $name = explode('&',$menuList['name']);
-                            $price = explode('&',$menuList['price']);
-                            $number = explode('&',$menuList['number']);
-                            $img = explode('&',$menuList['img']);
-                            $id = explode('&',$menuList['id']);
-                            $sum = 0;
-                             // echo '<pre>';
-                             // print_r($number);
-                             // echo '</pre>';
-                            // die;
-                            ?>
 
                             <!-- Page Content -->
-                            <div class="row a3">
-                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-push-1 col-md-push-1 col-sm-push-1 col-xs-push-1 a3">
+                            <div class="row a3 addData">
+                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-push-1 col-md-push-1 col-sm-push-1 col-xs-push-1 a3"  id="addData">
 
-                                    <?php for ($i = 0; $i < sizeof($name); $i++){
-                                
-                                        if($id[$i]!=''){
-                                            $sum += $price[$i]*$number[$i];
-                                            ?>
-                                            <div class="row">
-                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                                   <img class="food-img" src="<?php echo ($img[$i]!=null && $img[$i] !='' && $img[$i]!='null')? $img[$i]: 'img/menu/default-menu-image.jpg' ?>" alt="food">
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 food-name">
-                                                    <div class="food-name-sl"><?php echo isset($name[$i])? $name[$i]: '' ?></div>
-                                                    <div class="food-price-gi"><?php echo isset($price[$i])?$price[$i]: '' ?> &#8363;</div>
-                                                    <div class="price-vnd pull-left">x <?php echo isset($number[$i])? $number[$i]: '' ?></div>
-                                                </div>
-                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                                    <div class="cancel-btn">
-                                                        <a href="deleteMenu.php?id=<?php echo $id[$i] ?>" class="fa fa-times-circle pull-right" aria-hidden="true"></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        <?php } }?>
                                 </div>
                                 <!-- /.container -->
                             </div>
                             <!-- ./end -->
-                        <?php }else{
-                            echo "No data";
-                        } ?>
                     </div>
                     <div class="modal-footer">
                         <div class="col-lg-8 col-lg-push-2 a3">
-                            <div class="food-name-sl">Tổng tiền: <?php echo number_format($sum); ?> &#8363;</div>
+                            <div class="food-name-sl" id="totalPrice">Tổng tiền: </div>
                         </div>
                         <div class="col-lg-10 col-lg-push-1 checkout">
-                            <a class="btn btn-default print-button" id="printer-call" href="sendData.php">CONFIRM</a>
+                            <a class="btn btn-default print-button" id="printer-call" onclick="postData()">CONFIRM</a>
                         </div>
                     </div>
                 </div>
