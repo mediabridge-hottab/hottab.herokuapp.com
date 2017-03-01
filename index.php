@@ -11,19 +11,21 @@
 
     <title>Hottab</title>
 
-    <!-- Bootstrap Core CSS -->
+    <link href="img/favicon.ico" rel="shortcut icon">
+
+    <!-- Library CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/thumbnail-gallery.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="weather/css/style.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
     <script type="text/javascript" src="http://rilwis.googlecode.com/svn/trunk/weather.min.js"></script>
 
     <script>
@@ -49,6 +51,7 @@
             return k;
         }
     </script>
+
 </head>
 
 <body onload="startTime()">
@@ -189,10 +192,13 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Function -->
     <script src="js/language.js"></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js'></script>
     <script src="weather/js/ip.js"></script>
     <script src="weather/js/index.js"></script>
+
 </body>
+
 </html>

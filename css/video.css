@@ -1,0 +1,206 @@
+* {}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+html, body {width: 100%;height: 100%;}
+
+body {
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    /* background: #FF0000; */
+}
+
+#top-title {
+    float: left;
+    padding-top: 21.25px;
+    padding-left: 14px;
+    color: white;
+    font-size: 19px;
+    font-family: arial;
+}
+
+#top-icon {
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-top: 11px;
+}
+
+#top-panel-ent {
+    width: 100%;
+    height: 64px;
+    background-color: #DC4637;
+    position: fixed;
+}
+
+#back {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 3px;
+    padding-top: 20px;
+}
+
+#back:hover {
+    background-color: rgba(0,0,0,.2);
+}
+
+#back .mdi.mdi-arrow-left {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    margin-bottom: 0px;
+    border: none;
+    height: 64px;
+}
+
+p.vid-list-item-auth {
+    margin: 0px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+h3.vid-list-item-title {
+    width: 100%;
+    margin: 0px;
+    font-size: 16px;
+    opacity: 0.9;
+    height: 60px;
+    overflow: hidden;
+}
+
+.vid-list-item-info {
+    float: left;
+    width: 66.666667%;
+    height: 90px;
+}
+
+img.list-item-img {
+    width: 90%;
+    height: 90px;
+}
+
+.vid-list-item-img {
+    width: 33.333333%;
+    height: 90px;
+    float: left;
+}
+
+#left {
+    width: 65%;
+    height: 96%;
+    float: left;
+    background-color: white;
+    margin: 4px;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+#right {
+    width: 31.4%;
+    height: 96%;
+    float: left;
+    background-color: white;
+    margin: 4px;
+    border: 8px solid white;
+    border-radius: 3px;
+    overflow-y: scroll;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    margin: 4px;
+    padding: 8px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.main-page {
+    height: 87.968652%;
+    padding: 5px;
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+
+p.text-binding {
+    font-size: 15px;
+    opacity: 0.8;
+    overflow-y: scroll !important;
+    height: 29px;
+}
+
+p.vid-author {
+    opacity: 0.8;
+}
+
+h3.content-page-title {
+    font-size: 25px
+}
+.vid-list-item {
+    height: 90px;
+    margin-bottom: 6px;
+    font: small-caption;
+}
+
+.vid-list-item:hover {
+    background-color: #555555;
+}
+
+@media only screen and (max-width: 1024px) {
+    #right {
+        width: 30%;
+        height: 96%;
+        float: left;
+        background-color: white;
+        margin: 4px;
+        border: 8px solid white;
+        border-radius: 3px;
+        overflow-y: scroll;
+    }
+
+    .vid-list-item-title {
+        overflow: hidden;
+        height: 40px !important;
+    }
+
+    p.text-binding {
+        font-size: 15px;
+        opacity: 0.8;
+        overflow-y: scroll !important;
+        height: 56px;
+    }
+
+    h3.content-page-title {
+        font-size: 25px;
+        overflow: hidden;
+    }
+
+    img.list-item-img {
+        width: 90%;
+        height: 90px;
+        object-fit: cover; 
+    }
+}

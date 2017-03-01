@@ -29,7 +29,7 @@ body{
 	margin:0;
 	padding:0;
 	float:left;
-	z-index:9999;
+	z-index: 9998;
 	position:relative;
 	height:auto;
 	min-height:100%;

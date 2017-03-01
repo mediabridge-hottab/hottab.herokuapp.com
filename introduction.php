@@ -11,18 +11,22 @@
 
     <title>Hottab</title>
 
-    <!-- Bootstrap Core CSS -->
+    <link href="img/favicon.ico" rel="shortcut icon">
+
+    <!-- Library CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/materialdesignicons.min.css" rel="stylesheet">
     <link href="css/introduction.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body onload="startTime()">
@@ -31,7 +35,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top-panel-ent">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div id="top-icon"><a href="index.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
+            <div id="top-icon"><a href="index.php" id="back"><i class="mdi mdi-arrow-left"></i></a></div>
             <div id="top-title">Introduction</div>
         </div>
     </nav>
@@ -68,6 +72,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Function -->
     <script src="js/language.js"></script>
 
 </body>

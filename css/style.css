@@ -1,6 +1,10 @@
 * {}
 
-div#weather {
+body {
+    padding-top: 70px;
+}
+
+#weather {
     margin-left: 25px;
 }
 

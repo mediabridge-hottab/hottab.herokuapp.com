@@ -11,70 +11,105 @@
 
     <title>Hottab</title>
 
-    <!-- Bootstrap Core CSS -->
+    <link href="img/favicon.ico" rel="shortcut icon">
+
+    <!-- Library CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/thumbnail-gallery.css" rel="stylesheet">
-    <link href="css/materialdesignicons.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/services.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+</head>
 
-<body onload="startTime()">
-
+<body <?php
+session_start();
+if(isset($_SESSION['sess'])){
+    ?>
+    onload="sess()"
+    <?php
+    unset($_SESSION['sess']);
+}
+?>>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top-panel-ent">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div id="top-icon"><a href="index.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
-            <div id="top-title">Services</div>
+            <div id="top-icon"><a href="index.php" id="back"><i class="mdi mdi-arrow-left"></i></a></div>
+            <div id="top-title">Digital menu</div>
         </div>
     </nav>
+    <!-- ./end nav -->
+    
+    <!-- Page Content -->
+    <div class="container1">
 
-<!-- Page Content -->
-<div class="container1">
-    <div class="left">
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-border-color">Order</p>
-            </a>
+        <div class="tokenKey" id="tokenKey" style="display: none">
+            <?php
+
+                $curl = curl_init();
+
+                curl_setopt_array($curl, array(
+                    CURLOPT_URL => "http://api.hottab.pw/admin/login?hotel_id=10",
+                    CURLOPT_RETURNTRANSFER => true,
+                    CURLOPT_ENCODING => "",
+                    CURLOPT_MAXREDIRS => 10,
+                    CURLOPT_TIMEOUT => 30,
+                    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                    CURLOPT_CUSTOMREQUEST => "POST",
+                    CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nninh@hottab.net\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
+                    CURLOPT_HTTPHEADER => array(
+                        "cache-control: no-cache",
+                        "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
+                        "postman-token: 7c59b465-3fc8-deeb-d212-03be6e92ca28"
+                    ),
+                ));
+
+                $response = curl_exec($curl);
+                $err = curl_error($curl);
+
+                curl_close($curl);
+
+                if ($err) {
+                    echo "cURL Error #:" . $err;
+                } else {
+                    $pieces = explode("\"", $response);
+                    echo ($pieces[5]);
+                    $_SESSION['tokenKey'] = $pieces[5];
+                }
+            ?>
         </div>
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-phone">Room Service</p>
-            </a>
+        <div class="left" id="menuCate">
+
         </div>
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-broom">House Keeping</p>
-            </a>
+        <div class="right" id ="stars">
+
         </div>
-        <div class="item">
-            <a href="#">
-                <p class="item-img mdi mdi-heart">Extra Services</p>
-            </a>
-        </div>
+
+        <!-- Modal pre-order -->
+    
+        <!-- Modal order -->
+        
     </div>
-    <div class="right">
-        <a href="#">
-            <img id="notice" src="img/services/notice.png" alt="Image">
-        </a>
-        </div>
-</div>
-<!-- /.container -->
+    <!-- /.container -->
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/language.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Function -->
+    <script src="js/menu.js"></script>
+  
 </body>
 
 </html>

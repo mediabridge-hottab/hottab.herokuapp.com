@@ -1,5 +1,18 @@
 * {}
 
+.mdi.mdi-arrow-left {
+    font-size: 24px;
+}
+
+.mdi.mdi-arrow-left:hover {
+    cursor: pointer;
+}
+
+#back {
+    padding-left: 121px;
+    padding-top: 4px;
+}
+
 input.search-text {
     width: 90%;
 }
@@ -27,4 +40,10 @@ input.search-text {
   margin-right: 2%;
   margin-left: 79%;
   margin-top: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+  input.search-text {
+      width: 80%;
+  }
 }

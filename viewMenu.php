@@ -11,12 +11,13 @@
 
     <title>Hottab</title>
 
-    <!-- Bootstrap Core CSS -->
+    <link href="img/favicon.ico" rel="shortcut icon">
+
+    <!-- Library CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/thumbnail-gallery.css" rel="stylesheet">
-    <link href="css/materialdesignicons.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet">
     <link href="css/viewMenu.css" rel="stylesheet">
@@ -27,40 +28,42 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+</head>
+
+<body>
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top-panel-ent">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div id="top-icon"><a href="menu.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
+            <div id="top-icon"><a href="menu.php" id="back"><i class="mdi mdi-arrow-left"></i></a></div>
             <div id="top-title">Digital menu</div>
-            <a href="order.php"><img id="order-image" src="img/menu/order.png" alt=""></a>
+            <div id="order-div"><a href="order.php" id="order-btn"><i class="mdi mdi-basket"></i></a></div>
         </div>
     </nav>
-</head>
 
-<body>
-<!-- Page Content -->
-<div class="container1">
-    <div class="col-lg-4">
-        <div class="seesion" style="display: none;"><?php session_start(); echo $_SESSION['tokenKey']; ?></div>
-        <div class="keyMenu" style="display: none;"><?php echo $_GET['idMenu']; ?></div>
+    <!-- Page Content -->
+    <div class="container1">
+        <div class="col-lg-4 col-md-4 col-sm-3">
+            <div class="seesion" style="display: none;"><?php session_start(); echo $_SESSION['tokenKey']; ?></div>
+            <div class="keyMenu" style="display: none;"><?php echo $_GET['idMenu']; ?></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6" id = "contentMenu">
+
+        </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id = "contentMenu">
+    <!-- /.container -->
 
-    </div>
-    <div class="col-lg-4">
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-    </div>
-</div>
-<!-- /.container -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+    <!-- Function -->
+    <script src="js/viewMenu.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/language.js"></script>
-<script src="js/viewMenu.js"></script>
 </body>
 
 </html>

@@ -11,12 +11,15 @@
 
     <title>HotTab</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
+    <link href="../img/favicon.ico" rel="shortcut icon">
+
+    <!-- Library CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/materialdesignicons.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/entertainment.css" rel="stylesheet">
+    <link href="../css/entertainment.css" rel="stylesheet">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,211 +31,213 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div id="top-panel-ent">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div id="top-icon"><a href="../index.php"><img src="img/back-button.png" alt="back-button.png" class="img-responsive"></a></div>
-            <div id="top-title">Entertainment</div>
-        </div>
-    </nav>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div id="top-panel-ent">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div id="top-icon"><a href="../index.php" id="back"><i class="mdi mdi-arrow-left"></i></a></div>
+                <div id="top-title">Entertainment</div>
+            </div>
+        </nav>
+    <!-- ./end navigation -->
+
     <!-- Page Content -->
-    <div id="page-ent">
-        <div class="card-vid-group" onclick="location.href = 'media-detail.php';">
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-001.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
+        <div id="page-ent">
+            <div class="card-vid-group" onclick="location.href = 'media-detail.php';">
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-001.jpg" alt="" class="img video-img">
                     </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-002.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-003.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-002.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
+            <div class="card-vid-group">
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-004.jpg" alt="" class="img video-img">
                     </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-005.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-006.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-003.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
+            <div class="card-vid-group">
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-007.jpg" alt="" class="img video-img">
                     </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-008.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-009.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-vid-group">
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-010.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-011.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-vid">
+                    <div class="card-vid-img">
+                        <img src="../img/entertainment/hqdefault-012.jpg" alt="" class="img video-img">
+                    </div>
+                    <div class="card-vid-title">
+                        <div class="ent-play-icon">
+                            <i class="mdi mdi-play-circle play-icon"></i>
+                        </div>
+                        <div class="vid-info">
+                            <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
+                            <div class="vid-author"> Senator Elizabeth Warren </div>
+                            <div class="vid-timePost"> a day ago </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card-vid-group">
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-004.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-005.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-006.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-vid-group">
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-007.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-008.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-009.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-vid-group">
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-010.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-011.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-vid">
-                <div class="card-vid-img">
-                    <img src="img/entertainment/hqdefault-012.jpg" alt="" class="img video-img">
-                </div>
-                <div class="card-vid-title">
-                    <div class="ent-play-icon">
-                        <i class="mdi mdi-play-circle play-icon"></i>
-                    </div>
-                    <div class="vid-info">
-                        <div class="vid-title"> Sen. McConnell Refuses to Let Sen. Warren Speak About Attorney General Nominee Sessions </div>
-                        <div class="vid-author"> Senator Elizabeth Warren </div>
-                        <div class="vid-timePost"> a day ago </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 </body>
 
