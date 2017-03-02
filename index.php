@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hottab</title>
+    <title>HotTab</title>
 
     <link href="img/favicon.ico" rel="shortcut icon">
 
