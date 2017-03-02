@@ -5,7 +5,7 @@ $(document).ready(function() {
     //consolog("tokenKey: "+tokenKey);
     // console.log(tokenKey);
     $.ajax({
-        url: 'http://api.hottab.co/admin/new-food-categories?hotel_id=189&lang=vi&token='+tokenKey.trim(),
+        url: 'http://api.hottab.pw/admin/new-food-categories?hotel_id=172&lang=vi&token='+tokenKey.trim(),
 
         //url: 'http://api.hottab.pw/admin/new-food-categories?hotel_id=8&lang=vi&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXUyJ9.eyJleHAiOiIxNDg3Mzg0NTM0IiwiaXNfcmVmcmVzaF90b2tlbiI6dHJ1ZSwic3ViIjo4NiwiaXNzIjoiaHR0cDpcL1wvYXBpLmhvdHRhYi5wd1wvYWRtaW5cL2xvZ2luIiwiaWF0IjoiMTQ4NzI5ODEzNCIsIm5iZiI6IjE0ODcyOTgxMzQiLCJqdGkiOiJjYjRjNDcwMzkyNGE1ZmMwOGFkNTY2MDM2MTM0YjA2NyJ9.ZjFkZDc5YmZhZWM2Y2E0NTg0YzM1OGEwMWUyM2E5M2ZmYTQ5NTlkN2ExYWFiZTI1M2YzYTRiZmQ4ZTJmMTE3ZA',
         //url: 'api.hottab.pw/admin/new-foods/category/100?hotel_id=8&lang=vi&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXUyJ9.eyJleHAiOiIxNDg3Mzg0NTM0IiwiaXNfcmVmcmVzaF90b2tlbiI6dHJ1ZSwic3ViIjo4NiwiaXNzIjoiaHR0cDpcL1wvYXBpLmhvdHRhYi5wd1wvYWRtaW5cL2xvZ2luIiwiaWF0IjoiMTQ4NzI5ODEzNCIsIm5iZiI6IjE0ODcyOTgxMzQiLCJqdGkiOiJjYjRjNDcwMzkyNGE1ZmMwOGFkNTY2MDM2MTM0YjA2NyJ9.ZjFkZDc5YmZhZWM2Y2E0NTg0YzM1OGEwMWUyM2E5M2ZmYTQ5NTlkN2ExYWFiZTI1M2YzYTRiZmQ4ZTJmMTE3ZA&tag_id=12',
@@ -19,7 +19,7 @@ $(document).ready(function() {
                         idStart = star['id'];
                         $.ajax({
                             //console.log('id = '+idStart);
-                            url: 'http://api.hottab.co/admin/new-foods/category/' + idStart + '?hotel_id=189&lang=vi&token=' + tokenKey.trim(),
+                            url: 'http://api.hottab.pw/admin/new-foods/category/' + idStart + '?hotel_id=172&lang=vi&token=' + tokenKey.trim(),
                             type: 'get',
                             success: function (data) {
                                 // console.log(data['data']['foods']);

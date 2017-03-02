@@ -58,7 +58,7 @@ if(isset($_SESSION['sess'])){
             $curl = curl_init();
 
             curl_setopt_array($curl, array(
-                CURLOPT_URL => "http://api.hottab.co/admin/login?email=hoteltablet@hottab.net&password=123456",
+                CURLOPT_URL => "http://api.hottab.pw/admin/login?email=hoteltablet@hottab.net&password=123456",
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => "",
                 CURLOPT_MAXREDIRS => 10,
