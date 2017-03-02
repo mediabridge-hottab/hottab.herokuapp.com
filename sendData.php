@@ -203,7 +203,7 @@ for ($i = 0; $i < sizeof($number)-1; $i++) {
     \r\n    \"waiter_note\": \"\",
     \r\n    \"total\": \"$sum\",
     \r\n    \"unique_id\": \"".date("YmdHis")."\",
-    \r\n    \"room_id\": \"35533\",
+    \r\n    \"room_id\": \"42355\",
     \r\n    \"updated_at\": \"".date("Y-m-d H:i:s")."\",
     \r\n    \"total_tax\": \"0.0\",
     \r\n    \"guest_id\": \"21\",
@@ -215,13 +215,13 @@ for ($i = 0; $i < sizeof($number)-1; $i++) {
     \r\n    \"device_uuid\": \"3345127333aede4c\",
     \r\n    \"total_discount\": \"13000.0\",
     \r\n    \"created_at\": \"".date("Y-m-d H:i:s")."\",
-    \r\n    \"user_id\": \"856\",
-    \r\n    \"hotel_id\": 189
+    \r\n    \"user_id\": \"868\",
+    \r\n    \"hotel_id\": 172
     \r\n}";
     $curl = curl_init();
     //var_dump($str);
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "http://api.hottab.co/v2/cashier/food-orders/create-or-update?token=".$_SESSION['tokenKey'],
+        CURLOPT_URL => "http://api.hottab.pw/v2/cashier/food-orders/create-or-update?token=".$_SESSION['tokenKey'],
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,

@@ -2,7 +2,7 @@ var tokenKey = $( "div.tokenKey" ).text();
 var name, price, img, id, sum=0;
 function viewMenu(keyMenu) {
     $.ajax({
-        url: 'http://api.hottab.co/admin/new-foods/' + keyMenu + '?lang=vi&token=' + tokenKey.trim(),
+        url: 'http://api.hottab.pw/admin/new-foods/' + keyMenu + '?lang=vi&token=' + tokenKey.trim(),
         type: 'get',
         success: function (data) {
             console.log(data);
